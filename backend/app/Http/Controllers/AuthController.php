@@ -18,6 +18,20 @@ use Illuminate\Support\Facades\Http;
 
 class AuthController extends Controller
 {
+    public function __construct()
+    {
+        // Add CORS headers to all responses from this controller
+        header('Access-Control-Allow-Origin: *');
+        header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
+        header('Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorization, X-Request-With');
+        header('Access-Control-Allow-Credentials: true');
+        
+        // Handle preflight OPTIONS requests
+        if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+            http_response_code(200);
+            exit();
+        }
+    }
     public function register(Request $request)
     {
         $request->validate([
