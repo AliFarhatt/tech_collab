@@ -155,7 +155,7 @@ const ExploreProjects = () => {
             </Text>
           </Flex>
 
-          <Button
+          {/* <Button
             size="lg"
             leftIcon={<IoMdBulb />}
             bgGradient="linear(to-r, teal.400, cyan.500)"
@@ -177,8 +177,8 @@ const ExploreProjects = () => {
             loadingText="Analyzing Preferences..."
             onClick={handleRecommendProject}
           >
-            Recommend with AI
-          </Button>
+        
+          </Button> */} 
         </Flex>
         <Slider {...sliderSettings}>
           {recommendedProjectsLoading

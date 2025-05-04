@@ -51,11 +51,7 @@ const Sidebar = () => {
       logo: faLightbulb,
       route: EXPLORE_PROJECTS_ROUTE,
     },
-    {
-      name: "Recommended Projects",
-      logo: faStar,
-      route: RECOMMENDED_PROJECTS_ROUTE,
-    },
+    
     {
       name: "Generate Projects",
       logo: faCodeBranch,

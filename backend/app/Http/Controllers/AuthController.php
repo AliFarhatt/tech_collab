@@ -30,7 +30,7 @@ class AuthController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'email_verified' => false,
+            'email_verified' => true,
             'registration_completed' => false,
         ]);
     
@@ -93,7 +93,7 @@ class AuthController extends Controller
         }
     }      
 
-    public function login(Request $request)
+   public function login(Request $request)
     {
         $credentials = $request->only('email', 'password');
 

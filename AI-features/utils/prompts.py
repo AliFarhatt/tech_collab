@@ -222,6 +222,7 @@ def LLM_structure_resume(resume_text):
             '''
     return get_completion(prompt)
 
+
 def LLM_recommend_tips(resume_text):
     prompt = f"""
     You are an expert career advisor specializing in technology and engineering fields.

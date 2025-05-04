@@ -12,7 +12,7 @@ try:
     from fastapi.responses import JSONResponse
     from fastapi.middleware.cors import CORSMiddleware
 except Exception as e:
-    logging.error("Error loading modules in main.py: ", str(e))
+    logging.error(f"Error loading modules: {e}")
 
 app = FastAPI()
 app.add_middleware(
@@ -25,7 +25,6 @@ app.add_middleware(
 
 # load the vector db
 GeneratorModel_1 = GeneratorModel()
-
 # tested successfully
 @app.post("/recommend_project_1")
 async def recommend_project_1(student_ID: int = Form(),
@@ -44,14 +43,17 @@ async def recommend_project_1(student_ID: int = Form(),
         resume_dict = json.loads(resume_json)
         resume_text = resume_dict['skills']
         student_text = str(resume_text) + "\n" + preference
-        projects_IDs, projects_text = query_projects_DB(student_text, 10, GeneratorModel_1.projects_collection)
-        # print(projects_text[0])
+        projects_IDs, projects_text = query_projects_DB(student_text, 20, GeneratorModel_1.projects_collection)
+        #print(projects_text[0])
         # print(type(projects_text[0]))
+        project_titles = []
         recommended_projects = []
         for project in projects_text[0]:
             project = json.loads(project)
-            # print(project['title'])
-            recommended_projects.append(project)
+            if project['title'] not in project_titles and len(project_titles)<10:
+                project_titles.append(project['title'])
+                recommended_projects.append(project)
+                print(project['title'])
         return JSONResponse(content=recommended_projects, status_code=200)
 
     except Exception as e:
@@ -137,10 +139,17 @@ async def Add_student_to_DB(pdf_b64: str = Form()):
     """
     try:
         pdf_path = save_b64_as_pdf(pdf_b64)
-        resume_json, resume_text = preprocess_pdf(pdf_path)  # assuming preprocess_pdf returns resume_json with a 'skills' field
+        resume_json, resume_text = preprocess_pdf(pdf_path)
+
+        # Check if resume_json was processed correctly
+        if resume_json is None:
+            raise ValueError("Failed to process resume JSON from the uploaded PDF.")
+
         student_ID = GeneratorModel_1.add_student_to_DB(resume_json)
-        skills = resume_json.get('skills', [])  # Extract skills from resume_json
-        summary = resume_json.get('summary', "")  # Extract skills from resume_json
+
+        skills = resume_json.get('skills', [])  
+        summary = resume_json.get('summary', "")  
+
         response_data = {
             "student_ID": student_ID,
             "skills": skills,
@@ -152,9 +161,6 @@ async def Add_student_to_DB(pdf_b64: str = Form()):
         print("Failed to add New Student")
         logging.error('In Add_student_to_DB function in main.py: %s', str(e))
         return JSONResponse(content={'error': str(e)}, status_code=500)
-
-
-@app.post("/delete_student_from_DB")
 async def delete_student_from_DB(student_id: str):
     """
     This API deletes a student from the vector database given their student ID.
@@ -428,6 +434,8 @@ async def generate_project_2(student_ID: int = Form(),
         # resume_text = extract_text_from_pdf(pdf_path)
         generated_project = recommend_project(preference, approach=2, resume_text=resume_json)
         generated_project = clean_json_string(generated_project)
+        if isinstance(generated_project, str):
+            recommended_project = json.loads(generated_project)
         return JSONResponse(content=generated_project, status_code=200)
         # return generated_project
 

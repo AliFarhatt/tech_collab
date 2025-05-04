@@ -3,7 +3,7 @@ try:
     import json
     import chromadb
     from typing import List
-
+    
     from utils.prompts import *
     from utils.gemini_api import *
     import google.generativeai as genai
@@ -69,8 +69,8 @@ class GeneratorModel:
             )
 
             # Get the response from Gemini
-            response = self.build_prompt(results["documents"], resume_text, '')  
-            return response
+            #response = self.build_prompt(results["documents"], resume_text, '')  
+            return query_texts
         except Exception as e:
             print('Failed to match student to projects. ')
             print(f'Error in function match_S2S_RAG: {e}')

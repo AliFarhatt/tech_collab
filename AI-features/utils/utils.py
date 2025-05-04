@@ -20,6 +20,7 @@ def extract_text_from_pdf(file_name='this_resume.pdf'):
         try:
             # Open the PDF file
             pdf_document = fitz.open(file_name)
+            print("Aliiiiuuu")
         except Exception as e:
             print(str(e))
             print('File opened failed: ', file_name)
@@ -125,18 +126,58 @@ def clean_json_string(json_string):
 
     return json_string
 
+import json
+
+import re
+
 def preprocess_pdf(file_name='this_resume.pdf'):
     try:
         resume_text = extract_text_from_pdf(file_name)
+        
+        if not resume_text or len(resume_text.strip()) == 0:
+            print(f"No text extracted from PDF: {file_name}")
+            return None, None
+
         resume_json = LLM_structure_resume(resume_text)
-        resume_json_clean = clean_json_string1(resume_json)
+
+        if not resume_json or not isinstance(resume_json, str):
+            print(f"LLM did not return a valid response for file: {file_name}")
+            return None, resume_text
+
+        print("=== Raw LLM Resume JSON ===")
+        print(resume_json)
+        print("===========================")
+
+        # Handle case if server sent HTML instead of JSON
+        if "<!DOCTYPE html" in resume_json.lower() or "<html" in resume_json.lower():
+            print("Received HTML instead of JSON. Likely LLM server error.")
+            return None, resume_text
+
+        # Handle Markdown formatting with triple backticks
+        if resume_json.strip().startswith("```"):
+            print("Detected Markdown formatting. Cleaning it...")
+            # Remove triple backticks and optional 'json'
+            resume_json = re.sub(r'^```(?:json)?\s*', '', resume_json.strip(), flags=re.IGNORECASE)
+            resume_json = re.sub(r'\s*```$', '', resume_json.strip())
+
+        # Double check if after cleaning, it is a valid JSON object
+        if not resume_json.strip().startswith("{") or not resume_json.strip().endswith("}"):
+            print("LLM output is not a complete JSON object. Skipping.")
+            return None, resume_text
+
+        try:
+            resume_json_clean = clean_json_string1(resume_json)
+        except Exception as e:
+            print(f"Failed to clean JSON response for file: {file_name}")
+            print('Error:', str(e))
+            return None, resume_text
+
         return resume_json_clean, resume_text
+
     except Exception as e:
         print(f'Failed to process resume file: {file_name}')
-        print('Error in preprocess_pdf function in utils.py: %s', str(e))
-
+        print('Error in preprocess_pdf function in utils.py:', str(e))
         return None, None
-
 
 # Vector Database tools
 # def initialize_projects_DB(projects_ai, 
