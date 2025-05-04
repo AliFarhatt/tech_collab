@@ -29,7 +29,7 @@ import { UserPopup } from "../../components/Popup/UserPopup/UserPopup";
 import SkillsEditModal from "./components/SkillsEditModal";
 import { EditIcon } from "@chakra-ui/icons";
 import AddProjectModal from "./components/AddProjectModal";
-
+import EditProjectModal from "./components/EditProjectModal";
 const Profile = () => {
   const bgGradient = useColorModeValue(
     "linear(to-br, gray.50, gray.100)",
@@ -55,6 +55,13 @@ const Profile = () => {
     onOpen: onAddProjectPopupOpen,
     onClose: onAddProjectPopupClose,
   } = useDisclosure();
+  const {
+    isOpen: isEditProjectPopupOpen,
+    onOpen: onEditProjectPopupOpen,
+    onClose: onEditProjectPopupClose,
+  } = useDisclosure();
+
+  const [selectedProject, setSelectedProject] = useState(null);
   const [viewType, setViewType] = useState("followers"); // Modal state
   const [selectedUser, setSelectedUser] = useState(null); // To store the selected user
 
@@ -252,7 +259,7 @@ const Profile = () => {
               </Flex>
               <VStack align="start" spacing={4} w="100%" mt={6}>
                 {authUser?.user_projects?.length > 0 ? (
-                  authUser.user_projects.map((project) => (
+                  /*authUser.user_projects.map((project) => (
                     <Box
                       key={project.id}
                       w="100%"
@@ -296,7 +303,69 @@ const Profile = () => {
                         </Text>
                       </VStack>
                     </Box>
-                  ))
+                  ))*/
+                    authUser.user_projects.map((project) => (
+                      <Box
+                        key={project.id}
+                        w="100%"
+                        bg={projectBg}
+                        p={6}
+                        borderRadius="lg"
+                        boxShadow="lg"
+                        transition="transform 0.2s"
+                        _hover={{ transform: "scale(1.02)" }}
+                        position="relative"
+                      >
+                        <Flex justify="space-between" align="center">
+                          <Text
+                            fontSize="xl"
+                            fontWeight="600"
+                            color={projectTitleColor}
+                          >
+                            {project.title}
+                          </Text>
+                          <Button
+                            size="sm"
+                            onClick={() => {
+                              setSelectedProject(project);
+                              onEditProjectPopupOpen();
+                            }}
+                            leftIcon={<EditIcon />}
+                            variant="ghost"
+                            colorScheme="blue"
+                            borderRadius="md"
+                          >
+                            Edit
+                          </Button>
+                        </Flex>
+    
+                        <VStack align="start" spacing={3} mt={2}>
+                          <Text fontSize="md" fontWeight="400" color="gray.500">
+                            {project.description}
+                          </Text>
+                          {project.url && (
+                            <Link href={project.url} isExternal color="blue.500">
+                              Visit Project
+                            </Link>
+                          )}
+                          <Text fontSize="sm" fontWeight="400" color="gray.500">
+                            Technologies:{" "}
+                            {project.technologies
+                              ? project.technologies.split(", ").join(", ")
+                              : "N/A"}
+                          </Text>
+                          <Text fontSize="sm" fontWeight="400" color="gray.500">
+                            {`Status: ${project.status}, Start: ${new Date(
+                              project.start_date
+                            ).toLocaleDateString()}, End: ${
+                              project.end_date
+                                ? new Date(project.end_date).toLocaleDateString()
+                                : "Ongoing"
+                            }`}
+                          </Text>
+                        </VStack>
+                      </Box>
+                    )) 
                 ) : (
                   <Text fontSize="md" color="gray.500">
                     No projects found.
@@ -311,6 +380,14 @@ const Profile = () => {
                 authUser={authUser}
                 setAuthUser={setAuthUser}
               />
+              {selectedProject && (
+              <EditProjectModal
+                isOpen={isEditProjectPopupOpen}
+                onClose={onEditProjectPopupClose}
+                project={selectedProject}
+                setAuthUser={setAuthUser}
+              />
+            )}
             </Box>
           </VStack>
         </GridItem>

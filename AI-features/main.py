@@ -149,11 +149,12 @@ async def Add_student_to_DB(pdf_b64: str = Form()):
 
         skills = resume_json.get('skills', [])  
         summary = resume_json.get('summary', "")  
-
+        projects = resume_json.get('projects', [])
         response_data = {
             "student_ID": student_ID,
             "skills": skills,
-            "summary": summary
+            "summary": summary,
+            "projects": projects
         }
         return JSONResponse(content=response_data, status_code=200)
 

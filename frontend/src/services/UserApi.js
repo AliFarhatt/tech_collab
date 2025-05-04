@@ -28,6 +28,14 @@ export const editSkills = async (body, signal) => {
 export const addProject = async (body, signal) => {
     return await HttpRequest.post(e.CRUD_USER + `/project`, body, 'token', signal);
 };
+export const updateProject = async (projectId, body, signal) => {
+    return await HttpRequest.patchApi(
+        e.CRUD_USER + `/project/${projectId}`,
+        body,
+        'token',
+        signal
+    );
+};
 
 export const getUsersByVectorID = async (body, signal) => {
     return await HttpRequest.post(e.CRUD_USERS + `/get-by-vector-ids`, body, 'token', signal);

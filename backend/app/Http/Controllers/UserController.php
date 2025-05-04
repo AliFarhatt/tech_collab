@@ -191,7 +191,58 @@ class UserController extends Controller
             'status' => true,
         ], 201);
     }
-
+    public function updateUserProject(Request $request, $id)
+    {
+        // Validate the incoming request data
+        $validatedData = $request->validate([
+            'title' => 'required|string|max:255',
+            'description' => 'nullable|string',
+            'status' => 'nullable|string',
+            'url' => 'nullable|url',
+            'technologies' => 'nullable|array',
+            'technologies.*' => 'string|max:255', // Each technology should be a string
+            'start_date' => 'nullable|date',
+            'end_date' => 'nullable|date|after_or_equal:start_date',
+        ]);
+    
+        // Find the project by ID
+        $project = UserProject::find($id);
+    
+        // Check if the project exists
+        if (!$project) {
+            return response()->json([
+                'message' => 'Project not found.',
+                'status' => false,
+            ], 404);
+        }
+    
+        // Check if the authenticated user is the owner of the project
+        if ($project->user_id !== Auth::id()) {
+            return response()->json([
+                'message' => 'You are not authorized to update this project.',
+                'status' => false,
+            ], 403);
+        }
+    
+        // Update the project fields
+        $project->title = $validatedData['title'];
+        $project->description = $validatedData['description'] ?? null;
+        $project->status = $validatedData['status'] ?? null;
+        $project->url = $validatedData['url'] ?? null;
+        $project->technologies = implode(', ', $validatedData['technologies'] ?? []); // Convert array to string
+        $project->start_date = $validatedData['start_date'] ?? null;
+        $project->end_date = $validatedData['end_date'] ?? null;
+    
+        // Save the updated project
+        $project->save();
+    
+        // Return a success response with the updated project data
+        return response()->json([
+            'message' => 'Project updated successfully.',
+            'data' => $project,
+            'status' => true,
+        ], 200);
+    }
     public function getUsersByVectorIds(Request $request)
     {
         // Validate that 'vector_ids' is present and is an array
@@ -219,5 +270,19 @@ class UserController extends Controller
             'data' => $users,
             'status' => true,
         ], 200);
+    }
+    public function getUserProjects($userId)
+    {
+        // Retrieve the user by ID
+        $user = User::findOrFail($userId);
+    
+        // Retrieve the projects associated with the user
+        $projects = $user->userProjects;  // This assumes a hasMany relationship in the User model
+    
+        // Return the projects data as a response
+        return response()->json([
+            'projects' => $projects,
+            'status' => true
+        ]);
     }
 }

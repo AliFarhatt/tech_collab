@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\StudentData;
 use App\Models\Skill;
-
+use App\Models\UserProject;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Tymon\JWTAuth\Facades\JWTAuth;
@@ -178,6 +178,9 @@ class AuthController extends Controller
             'linkedin_profile' => 'nullable|string',
             'skills' => 'nullable|array',
             'skills.*' => 'string',
+            'projects' => 'nullable|array',
+            'projects.*.name' => 'required|string',
+            'projects.*.description' => 'nullable|string',
         ]);
     
         // Get the authenticated user
@@ -202,11 +205,29 @@ class AuthController extends Controller
                 $user->skills()->create(['skill' => $skillName]);
             }
         }
-
+        if ($request->has('projects')) {
+  
+            foreach ($request->input('projects') as $project) {
+            // Optional debug log
+            Log::info('Creating project:', $project);
+    
+            $user->userProjects()->create([
+            'user_id' => Auth::id(), // Get the authenticated user's ID
+            'title' => $project['name'],
+            'description' => $project['description'] ?? null,
+            'status' => $project['status'] ?? null,
+            'url' => $project['url'] ?? null,
+            'technologies' => implode(', ', $project['technologies'] ?? []), // Convert array to string
+            'start_date' => $project['start_date'] ?? null,
+            'end_date' => $project['end_date'] ?? null,
+        ]);
+        }
+        }
         $user->registration_completed = true;
         $user->save();
 
         $user->load('skills');
+        $user->load('userProjects');
         $user->load('following');
         $user->load('followers');
     
@@ -319,7 +340,19 @@ class AuthController extends Controller
                     $user->skills()->create(['skill' => $skillName]);
                 }
             }
-    
+            if (isset($apiData['projects']) && is_array($apiData['projects'])) {
+                foreach ($apiData['projects'] as $project) {
+                $user->userProjects()->create([
+                'title' => $project['name'],                          // required
+                'description' => $project['description'] ?? null,
+                'status' => null,
+                'url' => null,
+                'technologies' =>  null,
+                'start_date' => null,
+                'end_date' =>  null,
+            ]);
+            }
+            }
             // Return success response
             return response()->json([
                 'message' => 'User registration completed successfully with AI data.',
