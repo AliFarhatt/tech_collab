@@ -1,0 +1,29 @@
+A system for secure data transfer over unsecure networks using the Data Encryption Standard (DES) algorithm, widely used by companies, governments, and military. , Cloud Computing, Security and Encryption, Web | Desktop Application
+A system that ensures secure file storage on the cloud using a hybrid cryptography approach involving Blowfish and splitting/merging techniques. , Cloud Computing, Security and Encryption, Web | Desktop Application
+A system using image steganography to hide sensitive information within images for secure data transfer over the internet. , Cloud Computing, Networking, Parallel And Distributed System, Security and Encryption, Web | Desktop Application
+A Windows application for secure storage of files, documents, images, and videos, with access restricted to authorized users only. , Cloud Computing, Web | Desktop Application
+A system to improve privacy policy management in online social networks using clustering techniques and memory-based policy setting. , Cloud Computing, Data Mining, Security and Encryption
+A system for discovering and analyzing user access patterns on websites using improved frequent pattern tree algorithms. , Cloud Computing, Data Mining
+A system for reversible data hiding where original host content can be perfectly restored after data extraction, using optimal value transfer rules. , Cloud Computing, Data Mining
+A mechanism to ensure reliable data storage using cloud services, employing bilinear pairing for public auditing of data. , Cloud Computing, Data Mining
+A system to optimize horizontal aggregation in SQL using K-Means clustering, improving data analysis efficiency. , Cloud Computing, Data Mining
+A two-level access control scheme for securing outsourced data in the cloud, protecting both data confidentiality and user access patterns. , Cloud Computing, Web | Desktop Application
+A secure and efficient query service in the cloud using RASP data perturbation, combining order-preserving encryption and dimensionality expansion. , Cloud Computing, Web | Desktop Application
+A framework to ensure trusted transactions on cloud servers by enforcing policy consistency constraints and using a Two-Phase Validation Commit protocol. , Cloud Computing, Web | Desktop Application
+A system for secure data retrieval in decentralized disruption-tolerant military networks using Ciphertext-policy attribute-based encryption (CP-ABE). , Cloud Computing, Networking, Security and Encryption, Web | Desktop Application
+A framework for identifying important product aspects from online consumer reviews to improve usability and information navigation. , Cloud Computing, Data Mining, Security and Encryption, Web | Desktop Application
+A novel collaborative filtering recommendation method using object typicality from cognitive psychology to improve recommendation accuracy. , Cloud Computing, Data Mining, Security and Encryption
+A system for ensuring shared data integrity in the cloud through public auditing and efficient user revocation. , Cloud Computing, Data Mining, Parallel And Distributed System, Security and Encryption, Web | Desktop Application
+A protocol for remote data integrity checking in multi-cloud storage, ensuring data integrity without downloading the entire data. , Cloud Computing, Web | Desktop Application
+A semi-anonymous privilege control scheme for securing cloud storage, decentralizing authority to limit identity leakage. , Cloud Computing, Web | Desktop Application
+A multi-keyword ranked search scheme over encrypted cloud data, preserving privacy and enabling efficient retrieval. , Cloud Computing, Security and Encryption
+The CloudProtect middleware allows users to encrypt sensitive data within various cloud applications while preserving all functionalities. , Cloud Computing, Web | Desktop Application
+A multi-cloud storage system that divides user data blocks into pieces, ensuring data availability and privacy. , Cloud Computing, Web | Desktop Application
+A distributed scheme for ensuring the correctness of users' data in the cloud using homomorphic token with distributed verification. , Cloud Computing, Web | Desktop Application
+A system for effective fuzzy keyword search over encrypted cloud data, enhancing usability by returning closely matching files. , Cloud Computing
+A social media application for healthcare developed over the cloud, ensuring security through role-based access control. , Cloud Computing, Web | Desktop Application
+A two-level access control scheme for securing outsourced data in the cloud, protecting both data confidentiality and user access patterns. , Cloud Computing, Web | Desktop Application
+A cloud platform architecture called Data Protection as a Service, offering strong data protection while enabling rich applications. , Cloud Computing, Web | Desktop Application
+A method for reallocating bandwidth dynamically from passive users to active users in cloud computing environments. , Cloud Computing, Web | Desktop Application
+A graphical password system using persuasive click points to defend against large-scale online password guessing attacks. , Cloud Computing, Web | Desktop Application
+A method for efficient privacy-preserving range queries over encrypted data in cloud computing using secure comparison protocols. , Cloud Computing, Web | Desktop Application

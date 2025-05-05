@@ -1,0 +1,668 @@
+[
+    {
+        "ID": 1,
+        "title": "Vehicle Theft Detection/Notification And Remote Engine Locking",
+        "description": "The main purpose of this project is to prevent vehicle theft by detecting vehicle status in theft mode and sending an SMS to the owner. The owner can then send back an SMS to disable the ignition of the vehicle.",
+        "category": "iot",
+        "required_skills": [
+            "8051 Microcontroller",
+            "GPS-GSM",
+            "Internet Of Things",
+            "Sensor"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/vehicle-theft-detection-notification-and-remote-engine-locking/"
+    },
+    {
+        "ID": 2,
+        "title": "GPS + GSM Based Advanced Vehicle Tracking System Project",
+        "description": "This project is designed to find the exact location of any vehicle and intimate the position to the concerned authority through an SMS. The system includes a GPS modem to retrieve the location and a GSM modem to send the data.",
+        "category": "iot",
+        "required_skills": [
+            "8051 Microcontroller",
+            "GPS-GSM",
+            "Internet Of Things"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/gps-gsm-based-advanced-vehicle-tracking-system-project-2/"
+    },
+    {
+        "ID": 3,
+        "title": "IOT Color Based Product Sorting Machine Project",
+        "description": "Color Based Object Sorting has a wide usage in industries. This system detects color and sorts items through image processing, using a camera and electronic circuitry.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Raspberry Pi"
+        ],
+        "proposed_algorithms": [
+            "Image Processing"
+        ],
+        "URL": "https://projectideas.co.in/iot-color-based-product-sorting-machine-project-2/"
+    },
+    {
+        "ID": 4,
+        "title": "IOT Smart Mirror With News & Temperature",
+        "description": "Smart mirrors allow users to see news, temperature, weather, and more while looking in the mirror. This system uses a raspberry pi based processor, display, IOT circuitry, and a temperature sensor.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Raspberry Pi"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-smart-mirror-with-news-temperature-2/"
+    },
+    {
+        "ID": 5,
+        "title": "IOT Home Automation Using Raspberry Pi",
+        "description": "This project automates home appliances and allows user control through the internet from anywhere. It uses a microcontroller circuit with lights, fans, LCD display, and Wifi connector interfaced with raspberry pi.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Raspberry Pi",
+            "Sensor"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-home-automation-using-raspberry-pi/"
+    },
+    {
+        "ID": 6,
+        "title": "IOT Industry Automation Using Raspberry Pi",
+        "description": "This project automates industrial tasks using Raspberry Pi and IOT Gecko. It allows control of industry appliances over the internet, enabling remote command execution for machine/load switching.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Raspberry Pi",
+            "Sensor"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-industry-automation-using-raspberry-pi/"
+    },
+    {
+        "ID": 7,
+        "title": "IOT Theft Detection Using Raspberry Pi",
+        "description": "This system detects theft using image processing on live video, highlighting the area of motion. It secures offices/homes by instantly detecting theft and saving the video.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Raspberry Pi",
+            "Sensor"
+        ],
+        "proposed_algorithms": [
+            "Image Processing"
+        ],
+        "URL": "https://projectideas.co.in/iot-theft-detection-using-raspberry-pi/"
+    },
+    {
+        "ID": 8,
+        "title": "IOT Gas Pipe Leakage Detector Insect Robot",
+        "description": "This robot clings to gas pipes, checking for leakages using a gas sensor. It detects leakages, transmits the location over IOT, and is designed to move along the metal pipe.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Raspberry Pi",
+            "Sensor"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-gas-pipe-leakage-detector-insect-robot-2/"
+    },
+    {
+        "ID": 9,
+        "title": "IOT Based Fire Department Alerting System",
+        "description": "This project uses sensors to detect fires and alert the fire department instantly. It uses an arduino uno to confirm fire outbreaks using temperature sensors and sends alerts over IOT.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Sensor"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-based-fire-department-alerting-system/"
+    },
+    {
+        "ID": 10,
+        "title": "IOT Traffic Signal Monitoring & Controller System",
+        "description": "This system automates traffic signal monitoring and control, allowing for manual override over the internet. It uses an arduino-based circuit to monitor signal densities and transmit data online.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-traffic-signal-monitoring-controller-system/"
+    },
+    {
+        "ID": 11,
+        "title": "IOT Based Antenna Positioning System",
+        "description": "This project allows for remote positioning of antennas based on IOT. It uses sensors and motors to check and transmit the antenna's facing direction over the internet.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-based-antenna-positioning-system/"
+    },
+    {
+        "ID": 12,
+        "title": "Biometric Attendance System Over IOT",
+        "description": "This system uses a fingerprint sensor for biometric attendance, working over IOT to allow monitoring from anywhere. It uses a microcontroller circuit and IOTGecko for the online display system.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/biometric-attendance-system-over-iot/"
+    },
+    {
+        "ID": 13,
+        "title": "IOT Solar Power Monitoring System",
+        "description": "This project monitors solar power plants for optimal output. It uses an arduino-based system to monitor parameters of a 10Watt solar panel and transmits the data over the internet.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Sensor",
+            "Solar IoTProjects"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-solar-power-monitoring-system/"
+    },
+    {
+        "ID": 14,
+        "title": "IOT Garbage Monitoring With Weight Sensing",
+        "description": "This system monitors garbage bins, informing about the level of garbage via a web page. It uses ultrasonic sensors to detect the garbage level and compare it with the bin's depth.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Sensor"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-garbage-monitoring-with-weight-sensing/"
+    },
+    {
+        "ID": 15,
+        "title": "IOT Color Based Product Sorting Machine Project",
+        "description": "Color Based Object Sorting has a wide usage in fruit sorting as well as candy sorting industries. This system puts forward a mechanism to detect color and sort items through image processing. Once identified, a mechanism is used to sort the candies into particular bins/baskets. We demonstrate this mechanism using a camera with electronic circuitry along with a sorting mechanism using 3 bins. The system uses a Raspberry Pi connected to a controller circuit to achieve this task. The controller circuit consists of a camera that detects the color of a small object in front of it. A motor is used to feed an object to the camera chamber. As soon as the color is detected, a signal is sent to the sorter mechanism, which uses a motor to position the sorting tube towards the respective section. A feeder is then used to push the object towards the tubs so that it gets sorted and the next object is pulled in by the feeder. The action details are sent to the IOT server using IOTGecko platform to keep track of the number of objects sorted in each section. Thus, we achieve a completely automated IOT-based sorting system.",
+        "category": "iot",
+        "required_skills": [
+            "Raspberry Pi programming",
+            "Image processing",
+            "Motor control",
+            "Web development"
+        ],
+        "proposed_algorithms": [
+            "Color detection",
+            "Sorting mechanism",
+            "Data logging"
+        ],
+        "URL": "https://projectideas.co.in/iot-smart-mirror-with-news-temperature/"
+    },
+    {
+        "ID": 16,
+        "title": "Ultrasonic Blind Stick With GPS Tracking",
+        "description": "This advanced blind stick senses objects before physical contact, detects water in front, and includes GPS tracking to find lost persons. It uses ultrasonic sensors and a microcontroller circuit.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Sensor"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/ultrasonic-blind-stick-with-gps-tracking-iot/"
+    },
+    {
+        "ID": 17,
+        "title": "IOT Smart Mirror With News & Temperature",
+        "description": "Smart mirrors are the mirrors of the future. A part of the connected world where we would be able to see news, temperature, weather, and more just while looking and grooming in front of mirrors. Our proposed system allows building such mirrors that display news online and current temperature of the room for a futuristic lifestyle. The system uses a Raspberry Pi-based processor board along with a display and IOT-based circuitry and temperature sensor. A precisely modeled panel constructs the outer frame, and specialized glass with a back frame encases the system. The frame cavity is fitted with mounts for the display housing. Raspberry Pi connects to the internet using an IOT circuit through a WiFi module. We use IOTGecko to connect to the internet and get news feeds. The temperature sensor displays the current temperature on the mirror's display. Thus, we demonstrate a futuristic IOT smart mirror with news and temperature display.",
+        "category": "iot",
+        "required_skills": [
+            "Raspberry Pi programming",
+            "Display interfacing",
+            "IOT integration",
+            "Temperature sensing"
+        ],
+        "proposed_algorithms": [
+            "News feed retrieval",
+            "Temperature display",
+            "User interface integration"
+        ],
+        "URL": "https://projectideas.co.in/iot-color-based-product-sorting-machine-project/"
+    },
+    {
+        "ID": 18,
+        "title": "IOT Irrigation Monitoring & Controller System",
+        "description": "This project allows farmers to monitor and control water supply remotely. It uses sensors to monitor soil moisture and a controller to manage water distribution.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-irrigation-monitoring-controller-system/"
+    },
+    {
+        "ID": 19,
+        "title": "IOT Car Parking System",
+        "description": "This system manages parking space utilization using IOT. It detects parking slot occupancy with IR sensors and uses a wifi modem for connectivity, controlled by an AVR microcontroller.",
+        "category": "iot",
+        "required_skills": [
+            "Internet Of Things",
+            "Sensor"
+        ],
+        "proposed_algorithms": [],
+        "URL": "https://projectideas.co.in/iot-car-parking-system/"
+    },
+    {
+        "ID": 20,
+        "title": "IOT Alcohol & Health Monitoring System",
+        "description": "An IoT based system that monitors alcohol consumption and blood pressure of personnel in various industries to ensure work ethics and prevent accidents due to bad health or alcohol influence. It reports the data remotely over the internet.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller Programming",
+            "Sensor Integration",
+            "IoT Communication"
+        ],
+        "proposed_algorithms": [
+            "Data Monitoring",
+            "Threshold Alerting"
+        ],
+        "URL": "https://projectideas.co.in/iot-alcohol-health-monitoring-system/"
+    },
+    {
+        "ID": 21,
+        "title": "IOT Gas Pipe Leakage Detector Insect Robot",
+        "description": "A robot that moves along gas pipes to detect and report leakages using a gas sensor and GPS, transmitting data over an IoT system.",
+        "category": "iot",
+        "required_skills": [
+            "Robotics",
+            "Sensor Integration",
+            "GPS Communication",
+            "IoT Communication"
+        ],
+        "proposed_algorithms": [
+            "Leakage Detection",
+            "Location Reporting"
+        ],
+        "URL": "https://projectideas.co.in/iot-gas-pipe-leakage-detector-insect-robot/"
+    },
+    {
+        "ID": 22,
+        "title": "IOT Streetlight Controller System",
+        "description": "An IoT based system to monitor and control streetlights for reduced power consumption, fault detection, and automatic light dimming based on external lighting conditions.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller Programming",
+            "Sensor Integration",
+            "IoT Communication"
+        ],
+        "proposed_algorithms": [
+            "Power Consumption Monitoring",
+            "Fault Detection",
+            "Light Dimming Control"
+        ],
+        "URL": "https://projectideas.co.in/iot-streetlight-controller-system/"
+    },
+    {
+        "ID": 23,
+        "title": "IOT Based ICU Patient Monitoring System",
+        "description": "A Raspberry Pi based system that monitors critical health parameters of ICU patients and updates doctors over the internet using various sensors.",
+        "category": "iot",
+        "required_skills": [
+            "Raspberry Pi Programming",
+            "Sensor Integration",
+            "IoT Communication"
+        ],
+        "proposed_algorithms": [
+            "Health Data Monitoring",
+            "Real-time Data Transmission"
+        ],
+        "URL": "https://projectideas.co.in/iot-based-icu-patient-monitoring-system/"
+    },
+    {
+        "ID": 24,
+        "title": "IOT Industry Automation Using Raspberry Pi",
+        "description": "An IoT based industry automation system using Raspberry Pi and IoT Gecko, allowing control of industrial appliances over the internet.",
+        "category": "iot",
+        "required_skills": [
+            "Raspberry Pi Programming",
+            "IoT Gecko Integration",
+            "Industrial Automation"
+        ],
+        "proposed_algorithms": [
+            "Remote Control",
+            "Data Processing"
+        ],
+        "URL": "https://projectideas.co.in/iot-industry-automation-using-raspberry-pi-internet-of-things/"
+    },
+    {
+        "ID": 25,
+        "title": "IOT Electronic Door Opener",
+        "description": "An IoT based system to remotely control electronic door locks using an ATmega microcontroller and IoT Gecko.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller Programming",
+            "IoT Communication",
+            "Web Integration"
+        ],
+        "proposed_algorithms": [
+            "Remote Access Control",
+            "User Authentication"
+        ],
+        "URL": "https://projectideas.co.in/iot-electronic-door-opener-project-ideas/"
+    },
+    {
+        "ID": 26,
+        "title": "IOT Heart Attack Detection & Heart Rate Monitor",
+        "description": "An IoT based system that detects heart rate and alerts for abnormal readings, transmitting data over the internet to notify doctors and concerned users.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller Programming",
+            "Sensor Integration",
+            "IoT Communication"
+        ],
+        "proposed_algorithms": [
+            "Heart Rate Monitoring",
+            "Threshold Alerting"
+        ],
+        "URL": "https://projectideas.co.in/iot-heart-attack-detection-heart-rate-monitor-iot/"
+    },
+    {
+        "ID": 27,
+        "title": "IOT Home Automation Using Raspberry Pi",
+        "description": "An IoT based home automation system using Raspberry Pi and IoT Gecko to control home appliances remotely over the internet.",
+        "category": "iot",
+        "required_skills": [
+            "Raspberry Pi Programming",
+            "IoT Gecko Integration",
+            "Home Automation"
+        ],
+        "proposed_algorithms": [
+            "Remote Control",
+            "User Interface"
+        ],
+        "URL": "https://projectideas.co.in/iot-home-automation-using-raspberry-pi-internet-of-things/"
+    },
+    {
+        "ID": 28,
+        "title": "IOT Patient Health Monitoring Project",
+        "description": "An IoT based system to monitor the health status of patients using sensors, informing loved ones about any issues over the internet.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller Programming",
+            "Sensor Integration",
+            "IoT Communication"
+        ],
+        "proposed_algorithms": [
+            "Health Data Monitoring",
+            "Real-time Data Transmission"
+        ],
+        "URL": "https://projectideas.co.in/iot-patient-health-monitoring-project-iot/"
+    },
+    {
+        "ID": 29,
+        "title": "IOT Air & Sound Pollution Monitoring System",
+        "description": "An IoT based system to monitor air quality and sound pollution, transmitting data over the internet to allow authorities to take necessary actions.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller Programming",
+            "Sensor Integration",
+            "IoT Communication"
+        ],
+        "proposed_algorithms": [
+            "Air Quality Monitoring",
+            "Sound Level Monitoring"
+        ],
+        "URL": "https://projectideas.co.in/iot-air-sound-pollution-monitoring-system-internet-of-things/"
+    },
+    {
+        "ID": 30,
+        "title": "IoT based Energy Meter Reading",
+        "description": "Energy Monitoring Over IOT and keeping tracking of your electricity consumption for verification is a tedious task today since you need to go to meter reading room and take down readings. Well it is important to know if you are charged accordingly so the need is quite certain. Well we automate the system by allowing users to monitor energy meter readings over the internet. Our proposed system uses energy meter with microcontroller system to monitor energy usage using a meter. The meter is used to monitor units consumed and transmit the units as well as cost charged over the internet using wifi connection. This allows user to easily check the energy usage along with the cost charged online using a simple web application.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "WiFi communication",
+            "Web development"
+        ],
+        "proposed_algorithms": [
+            "Data transmission and logging",
+            "Cost calculation"
+        ],
+        "URL": "https://projectideas.co.in/energy-meter-monitoring-over-iot/"
+    },
+    {
+        "ID": 31,
+        "title": "IOT Theft Detection Using Raspberry Pi",
+        "description": "Here we propose IOT based theft detection project using Raspberry Pi where we use image processing on live video to detect theft using motion and also highlight the area where motion occurred. This system secures offices/homes from theft by instantly detecting theft as well as allowing user to view the theft details thereby highlighting the theft details and saving the video in a usb drive.",
+        "category": "iot",
+        "required_skills": [
+            "Raspberry Pi programming",
+            "Image processing",
+            "Camera interfacing"
+        ],
+        "proposed_algorithms": [
+            "Motion detection",
+            "Area highlighting"
+        ],
+        "URL": "https://projectideas.co.in/iot-theft-detection-using-raspberry-pi-internet-of-things/"
+    },
+    {
+        "ID": 32,
+        "title": "IOT Based Person/Wheelchair Fall Detection",
+        "description": "When it comes to old age, it becomes necessary to monitor our old ones for their health and safety. Due to weakness and weak joints they have a great risk of falling down. Now it is important to know if an old age person has fallen so that he/she can be helped on time. Also people on wheelchair need to be checked for fall detection. For this purpose we propose a smart fall detection system. The system uses accelerometer and gyro sensor to detect person movements, It can be mounted on persons hand or wheelchair for detection.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "Sensor interfacing",
+            "Signal processing"
+        ],
+        "proposed_algorithms": [
+            "Fall detection",
+            "Movement analysis"
+        ],
+        "URL": "https://projectideas.co.in/iot-based-person-wheelchair-fall-detection-iot/"
+    },
+    {
+        "ID": 33,
+        "title": "IOT Underground Cable Fault Detector Project",
+        "description": "Underground cables are prone to a wide variety of faults due to underground conditions, wear and tear, rodents etc. Also detecting fault source is difficult and entire line is to be dug in order to check entire line and fix faults. So here we propose an cable fault detection over IOT that detects the exact fault position over iot that makes repairing work very easy. The repairmen know exactly which part has fault and only that area is to be dug to detect the fault source.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "Sensor interfacing",
+            "Data transmission"
+        ],
+        "proposed_algorithms": [
+            "Fault detection",
+            "Position tracking"
+        ],
+        "URL": "https://projectideas.co.in/iot-underground-cable-fault-detector-project-internet-of-things/"
+    },
+    {
+        "ID": 34,
+        "title": "IOT Weather Reporting System",
+        "description": "Here we propose a smart weather reporting system over the internet. Our proposed system allows for weather parameter reporting over the internet. It allows the people to directly check the weather stats online without the need of a weather forecasting agency. System uses temperature, humidity as well as rain sensor to monitor weather and provide live reporting of the weather statistics.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "Sensor interfacing",
+            "Data transmission"
+        ],
+        "proposed_algorithms": [
+            "Weather data collection",
+            "Live data reporting"
+        ],
+        "URL": "https://projectideas.co.in/iot-weather-reporting-system-internet-of-things-project-ideas/"
+    },
+    {
+        "ID": 35,
+        "title": "IOT Based Toll Booth Manager System",
+        "description": "Managing multiple toll booths is a very complicated task. We here propose a smart card based toll booth system that is monitored over IOT. The Internet server maintains all the data of user accounts and also their balance. All vehicle owners would possess an rfid based card that stores their account number. Our system at toll booths will monitor the cards scanned when a car arrives at the toll booth.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "RFID technology",
+            "Web development"
+        ],
+        "proposed_algorithms": [
+            "Account balance checking",
+            "Payment processing"
+        ],
+        "URL": "https://projectideas.co.in/iot-based-toll-booth-manager-system-project-iot/"
+    },
+    {
+        "ID": 36,
+        "title": "IOT Liquid Level Monitoring System",
+        "description": "This project IOT Liquid Level Monitoring system is a very innovative system which will inform the users about the level of liquid and will prevent it from overflowing. To demonstrate this the system makes use of 4 containers. For this the system uses ultrasonic sensors placed over the containers to detect the liquid level and compare it with the container\u2019s depth.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "Sensor interfacing",
+            "Web development"
+        ],
+        "proposed_algorithms": [
+            "Level detection",
+            "Overflow prevention"
+        ],
+        "URL": "https://projectideas.co.in/iot-liquid-level-monitoring-system-project-ideas/"
+    },
+    {
+        "ID": 37,
+        "title": "IoT based Home Automation System with Security and Surveillance",
+        "description": "IOT or internet of things is an upcoming technology that allows us to control hardware devices through the internet. Here we propose to use IOT in order to control home appliances, thus automating modern homes through the internet. This system uses three loads to demonstrate as house lighting and a fan.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "WiFi communication",
+            "Web development"
+        ],
+        "proposed_algorithms": [
+            "Device control",
+            "Security monitoring"
+        ],
+        "URL": "https://projectideas.co.in/iot-home-automation/"
+    },
+    {
+        "ID": 38,
+        "title": "IOT Garbage Monitoring System",
+        "description": "This project IOT Garbage Monitoring system is a very innovative system which will help to keep the cities clean. This system monitors the garbage bins and informs about the level of garbage collected in the garbage bins via a web page. For this the system uses ultrasonic sensors placed over the bins to detect the garbage level and compare it with the garbage bins depth.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "Sensor interfacing",
+            "Web development"
+        ],
+        "proposed_algorithms": [
+            "Level detection",
+            "Data transmission"
+        ],
+        "URL": "https://projectideas.co.in/iot-garbage-monitoring-system-iot/"
+    },
+    {
+        "ID": 39,
+        "title": "IOT Smart Energy Grid",
+        "description": "Energy generation companies supply electricity to all the households via intermediate controlled power transmission hubs known as Electricity Grid. Sometimes problems arise due to failure of the electricity grid leading to black out of an entire area which was getting supply from that particular grid. This project aims to solve this problem using IOT as the means of communication and also tackling various other issues which a smart system can deal with to avoid unnecessary losses to the Energy producers.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "WiFi communication",
+            "Web development"
+        ],
+        "proposed_algorithms": [
+            "Energy monitoring",
+            "Fault detection"
+        ],
+        "URL": "https://projectideas.co.in/iot-smart-energy-grid/"
+    },
+    {
+        "ID": 40,
+        "title": "IOT Industry Automation",
+        "description": "IOT or internet of things is a technology that deals with bringing control of physical devices over the internet. Here we propose efficient industry automation system that allows user to efficiently control industry appliances/machines over the internet. For demonstration of this system we use 3 loads as industrial appliances or machines and a motor to demonstrate as an industrial motor.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "WiFi communication",
+            "Web development"
+        ],
+        "proposed_algorithms": [
+            "Device control",
+            "Automation"
+        ],
+        "URL": "https://projectideas.co.in/iot-industry-automation/"
+    },
+    {
+        "ID": 41,
+        "title": "IOT Office Automation",
+        "description": "It is quite difficult for individual office owners to operate one or more that one offices and keep track of each office appliances individually. At such time we need an online solution for physical office appliances control. Her we propose use of iot technology for office appliance automation. This allows owner co control his/her office appliances through the internet using an easy to use GUI.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "WiFi communication",
+            "Web development"
+        ],
+        "proposed_algorithms": [
+            "Device control",
+            "Automation"
+        ],
+        "URL": "https://projectideas.co.in/iot-office-automation/"
+    },
+    {
+        "ID": 42,
+        "title": "Automatic BMI Calculator Using Load Cell & Height Sensing",
+        "description": "Here we propose an automated BMI calculator system that does not need the user to input anything. The user just needs to stand on a platform and the system displays BMI as well as body type of user. The system uses load cells for weight sensing along with an ultrasonic sensor for height measurement.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "Sensor interfacing",
+            "Signal processing"
+        ],
+        "proposed_algorithms": [
+            "BMI calculation",
+            "Data processing"
+        ],
+        "URL": "https://projectideas.co.in/automatic-bmi-calculator-using-load-cell-heigh-sensing-iot/"
+    },
+    {
+        "ID": 43,
+        "title": "Landmine Detection Robotic Vehicle With GPS Positioning Using ARM",
+        "description": "Nation\u2019s security is most important thing today and therefore there is a need to consider safety of the soldiers and army who fight for the nation\u2019s security. One of the major concerns is the mine that is laid by the enemy on the way. So it becomes very important to detect this mine and diffuse them to save the lives of soldiers and armies.",
+        "category": "iot",
+        "required_skills": [
+            "ARM programming",
+            "GPS technology",
+            "Robotics"
+        ],
+        "proposed_algorithms": [
+            "Mine detection",
+            "Position tracking"
+        ],
+        "URL": "https://projectideas.co.in/landmine-detection-robotic-vehicle-with-gps-positioning-using-arm/"
+    },
+    {
+        "ID": 44,
+        "title": "GPS Vehicle Tracking & Theft Detection",
+        "description": "The project proposes a GPS based vehicle tracking system that tracks the vehicle and sends the tracking data over through a sms. The microcontroller acts as the controlling head of the system. When the system goes in Theft mode the authorized user gets the alert message and user will Able to stop the vehicle engine immediately via sending sms to system With \u2018S\u2019 Keyword.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "GPS technology",
+            "SMS communication"
+        ],
+        "proposed_algorithms": [
+            "Vehicle tracking",
+            "Theft detection"
+        ],
+        "URL": "https://projectideas.co.in/gps-vehicle-tracking-theft-detection/"
+    },
+    {
+        "ID": 45,
+        "title": "Soldier Health & Position Tracking System",
+        "description": "The soldier Health and Position Tracking System allows military to track the current GPS position of soldier and also checks the health status including body temperature and heartbeats of soldier. The System also consists extra feature with the help of that soldier can ask for help manually or send a distress signal to military if he is in need.",
+        "category": "iot",
+        "required_skills": [
+            "Microcontroller programming",
+            "GPS technology",
+            "Health monitoring"
+        ],
+        "proposed_algorithms": [
+            "Health monitoring",
+            "Position tracking"
+        ],
+        "URL": "https://projectideas.co.in/soldier-health-position-tracking-system/"
+    }
+]

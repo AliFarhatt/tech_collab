@@ -1,0 +1,51 @@
+The main purpose of this project is to prevent vehicle theft by detecting vehicle status in theft mode and sending an SMS to the owner, who can then disable the ignition via SMS. This enhances vehicle security. , GPS-GSM 
+This project allows users to operate the railway level crossing gate via SMS, enabling operation from any range. A GSM modem reads SMS commands to open or close the gate. , GPS-GSM 
+This GSM-controlled notice board displays SMS messages sent by the user on an LCD. The GSM modem captures and decodes SMS messages to be displayed by the microcontroller. , GPS-GSM 
+The project aims to detect rising water levels in rivers and send alerts to authorities via SMS, helping prevent flood damage by providing early warnings. , GPS-GSM 
+This project tracks the exact location of a vehicle and sends position details to the concerned authority via SMS. It uses GPS for location data and GSM for communication. , GPS-GSM 
+The system displays consumed electricity readings on an LCD and sends the readings and cost to the user via SMS, ensuring transparency and preventing bill tampering. , GPS-GSM 
+This project automates energy meter readings and allows users to control the system via SMS, making the process efficient and reducing the need for manual readings. , GPS-GSM 
+The system helps people take their medications on time by sounding a buzzer and displaying the medicine name. Users can enter medicine data and time via a keypad. , GPS-GSM 
+This project allows users to control home appliances via SMS and receive status updates, providing a convenient way to manage devices remotely. , GPS-GSM 
+The system enables remote door unlocking by sending a password via SMS. It alerts a registered user if the wrong password is entered multiple times. , GPS-GSM 
+The project handles voting via SMS, allowing votes to be cast and counted using a microcontroller. It ensures each unique phone number can only vote once. , GPS-GSM 
+The system allows energy usage based on prepaid accounts, cutting off supply when the balance is exhausted. Operators can recharge accounts using GSM. , GPS-GSM 
+The project allows users to control home appliances via SMS, providing a convenient way to operate and monitor devices remotely. , GPS-GSM 
+This project provides instant SMS alerts for security threats like trespassing, burglary, or fire. It uses sensors to detect intrusions and fire conditions. , GPS-GSM 
+The system monitors voltage levels and provides tripping mechanisms to prevent damage from voltage fluctuations, alerting the user via SMS. , GPS-GSM 
+The system automates attendance using RFID cards and sends SMS notifications to parents when students enter or leave the premises. , GPS-GSM 
+The system tracks soldiers' GPS positions and monitors health status, sending alerts for help if needed. , GPS-GSM 
+The system uses GPS to track a person's location, ensuring they remain within a designated area. Alerts are sent if they move outside the allowed range. , GPS-GSM 
+This project sends SMS alerts based on patient movement, providing a way to monitor and assist patients remotely. , GPS-GSM 
+The system tracks vehicle location and sends alerts for theft detection. Users can stop the vehicle engine via SMS. , GPS-GSM 
+The system uses a robotic vehicle with GPS and metal detectors to detect landmines, providing safe detection for military personnel. , GPS-GSM 
+The system detects unauthorized parking using RFID and sends SMS notifications to the owner, automating the process of illegal parking detection. , GPS-GSM 
+The system detects industrial hazards like smoke and high temperatures, sending SMS alerts to prevent accidents. , GPS-GSM 
+The project allows users to control home appliances via SMS and receive status updates, providing a convenient way to manage devices remotely. , GPS-GSM 
+The system detects gas leaks and fires, sending SMS alerts to authorities to prevent damage. It uses gas sensors to monitor the environment. , GPS-GSM 
+The system detects gas leaks and sends SMS alerts to prevent accidents. It uses a gas detection sensor interfaced with a microcontroller. , GPS-GSM 
+The system monitors patients' health remotely using sensors to measure heartbeats and body temperature, sending alerts via GSM if readings are abnormal. , GPS-GSM 
+The system enables remote door unlocking by sending a password via SMS. It alerts a registered user if the wrong password is entered multiple times. , GPS-GSM 
+The project handles voting via SMS, allowing votes to be cast and counted using a microcontroller. It ensures each unique phone number can only vote once. , GPS-GSM 
+This project tracks the exact location of a vehicle and sends position details to the concerned authority via SMS. It uses GPS for location data and GSM for communication. , GPS-GSM 
+The system monitors voltage levels and provides tripping mechanisms to prevent damage from voltage fluctuations, alerting the user via SMS. , GPS-GSM 
+The system displays consumed electricity readings on an LCD and sends the readings and cost to the user via SMS, ensuring transparency and preventing bill tampering. , GPS-GSM 
+This project automates energy meter readings and allows users to control the system via SMS, making the process efficient and reducing the need for manual readings. , GPS-GSM 
+This project allows users to operate the railway level crossing gate via SMS, enabling operation from any range. A GSM modem reads SMS commands to open or close the gate. , GPS-GSM 
+This GSM-controlled notice board displays SMS messages sent by the user on an LCD. The GSM modem captures and decodes SMS messages to be displayed by the microcontroller. , GPS-GSM 
+The project allows users to control home appliances via SMS, providing a convenient way to operate and monitor devices remotely. , GPS-GSM 
+The system uses a Raspberry Pi and RF technology to control a wheelchair remotely, providing easy operation and safety features for disabled persons. , GPS-GSM 
+The system ensures dual alerts for women's safety by providing GPS tracking and sending alerts in case of emergencies. , GPS-GSM 
+The system detects gas leaks and fires, providing early alerts to prevent damage. It uses Zigbee for wireless communication and sensors for detection. , GPS-GSM 
+The system automates water pump operation and prevents dry runs by sensing water flow and sending alerts via GSM. , GPS-GSM 
+The system senses temperature, light, and humidity and sends the data via GSM, providing a remote weather monitoring solution. , GPS-GSM 
+This system integrates GPS tracking and image capture for automated payroll management, ensuring accurate location and attendance data. , Web | Desktop Application 
+The system tracks the location of PCs using IP address data, mapping the IP to city coordinates for security and tracking purposes. , Web | Desktop Application 
+The system uses Wi-Fi signals to track the location of an Android phone indoors without the need for GPS, providing an alternative tracking method. , Web | Desktop Application 
+The system detects drunk driving using an alcohol sensor and locks the vehicle ignition, sending alerts via GSM. , GPS-GSM 
+The system automates home appliances using GSM technology, allowing users to control devices via SMS. , GPS-GSM 
+The system uses a PIC microcontroller to display electricity consumption on an LCD and send billing data via GSM. , GPS-GSM 
+The system detects combustible gas leaks and sends SMS alerts using a PIC microcontroller and gas sensor. , GPS-GSM 
+The system automates attendance using RFID cards and sends SMS notifications to parents when students enter or leave the premises. , GPS-GSM 
+This project provides instant SMS alerts for security threats like trespassing, burglary, or fire. It uses sensors to detect intrusions and fire conditions. , GPS-GSM 
+The system allows users to control the speed of a DC motor via SMS, providing remote operation capabilities. , GPS-GSM 

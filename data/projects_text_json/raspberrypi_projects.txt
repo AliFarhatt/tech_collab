@@ -1,0 +1,552 @@
+[
+    {
+        "ID": 1,
+        "title": "Object Tracker & Follower Robot Using Raspberry Pi",
+        "description": "An autonomous surveillance robot using image processing and Raspberry Pi to track and follow objects based on visuals.",
+        "category": [
+            "Image Processing",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Machine Vision",
+            "Image Processing"
+        ],
+        "proposed_algorithms": [
+            "YOLO (You Only Look Once)"
+        ],
+        "URL": "https://projectideas.co.in/object-tracker-follower-robot-using-raspberry-pi/"
+    },
+    {
+        "ID": 2,
+        "title": "IOT Color Based Product Sorting Machine Project",
+        "description": "A color-based object sorting system using image processing and IoT for sorting items into bins based on detected color.",
+        "category": [
+            "IoT",
+            "Image Processing",
+            "Cloud Computing"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Image Processing",
+            "IoT"
+        ],
+        "proposed_algorithms": [
+            "Color Detection Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/iot-color-based-product-sorting-machine-project-2/"
+    },
+    {
+        "ID": 3,
+        "title": "IOT Smart Mirror With News & Temperature",
+        "description": "A smart mirror system that displays news, temperature, and weather information using IoT and Raspberry Pi.",
+        "category": [
+            "IoT",
+            "Cloud Computing",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "IoT",
+            "Display Systems"
+        ],
+        "proposed_algorithms": [
+            "Data Fetching and Display Algorithms"
+        ],
+        "URL": "https://projectideas.co.in/iot-smart-mirror-with-news-temperature-2/"
+    },
+    {
+        "ID": 4,
+        "title": "3D Holographic Display System With Gesture Controller",
+        "description": "A system that creates 3D holographic projections and allows user interaction through gesture control using Raspberry Pi.",
+        "category": [
+            "Image Processing",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "3D Projections",
+            "Gesture Control"
+        ],
+        "proposed_algorithms": [
+            "Gesture Recognition Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/3d-holographic-display-system-with-gesture-controller/"
+    },
+    {
+        "ID": 5,
+        "title": "Speaking System For Mute People Using Hand Gestures",
+        "description": "A smart speaking system that helps mute people communicate through hand gestures using Raspberry Pi and sensors.",
+        "category": [
+            "AI",
+            "Sensor",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Motion Sensors",
+            "Speech Synthesis"
+        ],
+        "proposed_algorithms": [
+            "Gesture Recognition Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/speaking-system-for-mute-people-using-hand-gestures/"
+    },
+    {
+        "ID": 6,
+        "title": "Raspberry Pi Based Reader For Blind",
+        "description": "A reading system for the blind that uses OCR and Raspberry Pi to read out text captured by a camera.",
+        "category": [
+            "AI",
+            "Sensor",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "OCR",
+            "Speech Synthesis"
+        ],
+        "proposed_algorithms": [
+            "Optical Character Recognition (OCR)"
+        ],
+        "URL": "https://projectideas.co.in/raspberry-pi-based-reader-for-blind-pi/"
+    },
+    {
+        "ID": 7,
+        "title": "Ultrasonic Music Beats Player Using Raspberry Pi",
+        "description": "A music beats player controlled by hand motions using ultrasonic sensors and Raspberry Pi.",
+        "category": [
+            "Sensor",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Ultrasonic Sensors",
+            "Music Processing"
+        ],
+        "proposed_algorithms": [
+            "Hand Motion Detection Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/ultrasonic-music-beats-player-using-raspberry-pi/"
+    },
+    {
+        "ID": 8,
+        "title": "Raspberry Pi Home Automation Project",
+        "description": "A home automation system using Raspberry Pi and Bluetooth to control appliances via an Android phone.",
+        "category": [
+            "IoT",
+            "Android Mobile Development",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Bluetooth",
+            "Android Development"
+        ],
+        "proposed_algorithms": [
+            "Home Automation Control Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/raspberry-pi-home-automation-project/"
+    },
+    {
+        "ID": 9,
+        "title": "Raspberry Pi Based Automatic Selfie Booth",
+        "description": "An automated selfie booth that uses face recognition to take and save selfies using Raspberry Pi.",
+        "category": [
+            "Image Processing",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Face Recognition",
+            "Image Processing"
+        ],
+        "proposed_algorithms": [
+            "Face Detection and Recognition Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/raspberry-pi-based-automatic-selfie-booth/"
+    },
+    {
+        "ID": 10,
+        "title": "Motion Activated Wildlife Recording Camera Using Raspberry Pi",
+        "description": "A wildlife recording camera that starts recording when motion is detected using Raspberry Pi and motion sensors.",
+        "category": [
+            "Sensor",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Motion Sensors",
+            "Video Processing"
+        ],
+        "proposed_algorithms": [
+            "Motion Detection Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/motion-activated-wildlife-recording-camera-using-raspberry-pi/"
+    },
+    {
+        "ID": 11,
+        "title": "Motion Based Time Lapse Camera With Optimized Storage",
+        "description": "A time-lapse camera that captures images only when significant motion is detected to optimize storage using Raspberry Pi.",
+        "category": [
+            "Sensor",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Motion Sensors",
+            "Image Processing"
+        ],
+        "proposed_algorithms": [
+            "Motion Detection Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/motion-based-time-lapse-camera-with-optimized-storage/"
+    },
+    {
+        "ID": 12,
+        "title": "Raspberry Pi Vehicle Number Plate Recognition",
+        "description": "A vehicle number plate recognition system using image processing and OCR with Raspberry Pi.",
+        "category": [
+            "Image Processing",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Image Processing",
+            "OCR"
+        ],
+        "proposed_algorithms": [
+            "License Plate Recognition Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/raspberry-pi-vehicle-number-plate-recognition/"
+    },
+    {
+        "ID": 13,
+        "title": "Virtual Piano Using Raspberry Pi",
+        "description": "A portable virtual piano that uses a plastic sheet and Raspberry Pi to simulate piano tones through image processing.",
+        "category": [
+            "Image Processing",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Image Processing",
+            "Sound Synthesis"
+        ],
+        "proposed_algorithms": [
+            "Virtual Piano Simulation Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/virtual-piano-using-raspberry-pi/"
+    },
+    {
+        "ID": 14,
+        "title": "Voice Controlled Home Automation Using Raspberry Pi",
+        "description": "A voice-controlled home automation system using Raspberry Pi to switch appliances based on spoken commands.",
+        "category": [
+            "IoT",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Speech Recognition",
+            "Home Automation"
+        ],
+        "proposed_algorithms": [
+            "Speech Recognition Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/voice-controlled-home-automation-using-raspberry-pi/"
+    },
+    {
+        "ID": 15,
+        "title": "IOT Gas Pipe Leakage Detector Insect Robot",
+        "description": "A robot that detects gas leaks in pipes using sensors and Raspberry Pi, and reports the location via GPS.",
+        "category": [
+            "IoT",
+            "Sensor",
+            "GPS-GSM"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Gas Sensors",
+            "GPS Tracking"
+        ],
+        "proposed_algorithms": [
+            "Leak Detection Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/iot-gas-pipe-leakage-detector-insect-robot-2/"
+    },
+    {
+        "ID": 16,
+        "title": "IOT Home Automation Using Raspberry Pi",
+        "description": "An IoT-based home automation system that allows control of home appliances via the internet using Raspberry Pi.",
+        "category": [
+            "IoT",
+            "Cloud Computing",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "IoT",
+            "Web Development"
+        ],
+        "proposed_algorithms": [
+            "Home Automation Control Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/iot-home-automation-using-raspberry-pi/"
+    },
+    {
+        "ID": 17,
+        "title": "IOT Industry Automation Using Raspberry Pi",
+        "description": "An internet-based industry automation system that allows control of industrial appliances using Raspberry Pi and IoT Gecko.",
+        "category": [
+            "IoT",
+            "Cloud Computing",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "IoT",
+            "Web Development"
+        ],
+        "proposed_algorithms": [
+            "Industry Automation Control Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/iot-industry-automation-using-raspberry-pi/"
+    },
+    {
+        "ID": 18,
+        "title": "IOT Theft Detection Using Raspberry Pi",
+        "description": "An IoT-based theft detection system using Raspberry Pi and image processing to detect and highlight theft in live video.",
+        "category": [
+            "IoT",
+            "Image Processing",
+            "Security and Encryption"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Image Processing",
+            "IoT"
+        ],
+        "proposed_algorithms": [
+            "Motion Detection and Highlight Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/iot-theft-detection-using-raspberry-pi/"
+    },
+    {
+        "ID": 19,
+        "title": "Raspberry Pi Speaking Bus Stop Reminder",
+        "description": "A speaking bus stop indicator system using Raspberry Pi and RF receivers to announce bus stops.",
+        "category": [
+            "Sensor",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "RF Communication",
+            "Speech Synthesis"
+        ],
+        "proposed_algorithms": [
+            "Bus Stop Detection and Announcement Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/raspberry-pi-speaking-bus-stop-reminder/"
+    },
+    {
+        "ID": 20,
+        "title": "Automated Door Opener With Lighting Control Using Raspberry Pi",
+        "description": "An automated door opener and lighting control system using Raspberry Pi and PIR sensors to detect human presence.",
+        "category": [
+            "Sensor",
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "PIR Sensors",
+            "Automation"
+        ],
+        "proposed_algorithms": [
+            "Human Detection Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/automated-door-opener-with-lighting-control-using-raspberry-pi/"
+    },
+    {
+        "ID": 21,
+        "title": "Image Processing Based Fire Detection Using Raspberry Pi",
+        "description": "A fire detection system using image processing with Raspberry Pi to detect fire based on heat signatures and illumination patterns.",
+        "category": [
+            "Image Processing",
+            "AI",
+            "Security and Encryption"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Image Processing",
+            "Fire Detection"
+        ],
+        "proposed_algorithms": [
+            "Fire Detection Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/image-processing-based-fire-detection-using-raspberrypi/"
+    },
+    {
+        "ID": 22,
+        "title": "Linux Based Speaking Medication Reminder Project",
+        "description": "A medication reminder system using Raspberry Pi that converts text to speech to remind patients of their medication schedule.",
+        "category": [
+            "AI",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Text to Speech",
+            "Scheduling"
+        ],
+        "proposed_algorithms": [
+            "Text to Speech Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/linux-based-speaking-medication-reminder-project/"
+    },
+    {
+        "ID": 23,
+        "title": "Camera Based Surveillance System Using Raspberry Pi",
+        "description": "A camera-based surveillance system using Raspberry Pi to detect and alert on motion, capturing images of detected events.",
+        "category": [
+            "Sensor",
+            "AI",
+            "Security and Encryption"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Motion Detection",
+            "Image Processing"
+        ],
+        "proposed_algorithms": [
+            "Motion Detection Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/camera-based-surveillance-system-using-raspberry-pi/"
+    },
+    {
+        "ID": 24,
+        "title": "Drunk Driving Detection With Car Ignition Locking",
+        "description": "A system that uses alcohol sensors and Raspberry Pi to detect drunk driving and lock car ignition if alcohol is detected.",
+        "category": [
+            "Sensor",
+            "AI",
+            "Security and Encryption"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Alcohol Sensors",
+            "Vehicle Safety"
+        ],
+        "proposed_algorithms": [
+            "Drunk Driving Detection Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/drunk-driving-detection-with-car-ignition-locking-raspbarry-pi/"
+    },
+    {
+        "ID": 25,
+        "title": "Raspberry Pi Wheelchair With Safety System",
+        "description": "A Raspberry Pi-based wheelchair with RF communication and safety features to assist disabled users with easy movement and emergency help.",
+        "category": [
+            "GPS-GSM",
+            "Sensor",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "RF Communication",
+            "Motor Control"
+        ],
+        "proposed_algorithms": [
+            "Wheelchair Movement Control Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/raspberry-pi-wheelchair-with-safety-system-raspbarry-pi/"
+    },
+    {
+        "ID": 26,
+        "title": "IOT Gas Pipe Leakage Detector Insect Robot",
+        "description": "An innovative robot that detects gas leaks in pipes using sensors and Raspberry Pi, and reports the location via GPS.",
+        "category": [
+            "IoT",
+            "Sensor",
+            "GPS-GSM"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Gas Sensors",
+            "GPS Tracking"
+        ],
+        "proposed_algorithms": [
+            "Leak Detection Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/iot-color-based-product-sorting-machine-project/"
+    },
+    {
+        "ID": 27,
+        "title": "IOT Industry Automation Using Raspberry Pi",
+        "description": "An internet-based industry automation system that allows control of industrial appliances using Raspberry Pi and IoT Gecko.",
+        "category": [
+            "IoT",
+            "Cloud Computing",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "IoT",
+            "Web Development"
+        ],
+        "proposed_algorithms": [
+            "Industry Automation Control Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/iot-industry-automation-using-raspberry-pi-internet-of-things/"
+    },
+    {
+        "ID": 28,
+        "title": "IOT Theft Detection Using Raspberry Pi",
+        "description": "An IoT-based theft detection system using Raspberry Pi and image processing to detect and highlight theft in live video.",
+        "category": [
+            "IoT",
+            "Image Processing",
+            "Security and Encryption"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "Image Processing",
+            "IoT"
+        ],
+        "proposed_algorithms": [
+            "Motion Detection and Highlight Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/iot-theft-detection-using-raspberry-pi-internet-of-things/"
+    },
+    {
+        "ID": 29,
+        "title": "Raspberry Pi Wheelchair With Safety System",
+        "description": "A Raspberry Pi-based wheelchair with RF communication and safety features to assist disabled users with easy movement and emergency help.",
+        "category": [
+            "GPS-GSM",
+            "Sensor",
+            "Web | Desktop Application"
+        ],
+        "required_skills": [
+            "Raspberry Pi",
+            "RF Communication",
+            "Motor Control"
+        ],
+        "proposed_algorithms": [
+            "Wheelchair Movement Control Algorithm"
+        ],
+        "URL": "https://projectideas.co.in/raspberry-pi-wheelchair-with-safety-system/"
+    }
+]

@@ -1,0 +1,61 @@
+Python Projects : REFERENCE: geeks4geeks
+Make Notepad using Tkinter
+Color game using Tkinter in Python
+Python | Message Encode-Decode using Tkinter
+XML parsing in Python
+Desktop Notifier in Python
+Hangman Game in Python
+Junk File Organizer in Python
+Browser Automation Using Selenium
+Tracking bird migration using Python-3
+Twitter Sentiment Analysis using Python
+Image Classifier using CNN
+Implementing Photomosaics
+Working with Images in Python
+OpenCV Python Program to blur an image
+Opencv Python program for Face Detection
+Cartooning an Image using OpenCV – Python
+OpenCV Python Program to analyze an image using Histogram
+OpenCV Python program for Vehicle detection in a Video frame
+DNA to Protein in Python 3
+Viruses – From Newbie to pro
+Handling Ajax request in Django
+Working with zip files in Python
+Morse Code Translator In Python
+Simple Chat Room using Python
+Creating a Proxy Webserver in Python | Set 1
+Creating a Proxy Webserver in Python | Set 2
+Project Idea | Audio to Sign Language Translator
+Understanding Code Reuse and Modularity in Python 3
+Multi-Messenger : A python project, messaging via Terminal
+Movie recommendation based on emotion in Python
+Implementing Web Scraping in Python with BeautifulSoup
+Computer Vision module application for finding a target in a live camera
+
+
+
+links in order:
+https://www.geeksforgeeks.org/color-game-python
+https://www.geeksforgeeks.org/python-message-encode-decode-using-tkinter
+https://www.geeksforgeeks.org/xml-parsing-python
+https://www.geeksforgeeks.org/desktop-notifier-python
+https://www.geeksforgeeks.org/hangman-game-python
+https://www.geeksforgeeks.org/junk-file-organizer-python
+https://www.geeksforgeeks.org/tracking-bird-migration-using-python-3
+https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python
+https://www.geeksforgeeks.org/working-images-python
+https://www.geeksforgeeks.org/opencv-python-program-to-blur-an-image
+https://www.geeksforgeeks.org/opencv-python-program-face-detection
+https://www.geeksforgeeks.org/cartooning-an-image-using-opencv-python
+https://www.geeksforgeeks.org/opencv-python-program-analyze-image-using-histogram
+https://www.geeksforgeeks.org/opencv-python-program-vehicle-detection-video-frame
+https://www.geeksforgeeks.org/dna-protein-python-3
+https://www.geeksforgeeks.org/working-zip-files-python
+https://www.geeksforgeeks.org/morse-code-translator-python
+https://www.geeksforgeeks.org/simple-chat-room-using-python
+https://www.geeksforgeeks.org/creating-a-proxy-webserver-in-python-set-1
+https://www.geeksforgeeks.org/creating-a-proxy-webserver-in-python-set-2
+https://www.geeksforgeeks.org/understanding-code-reuse-modularity-python-3
+https://www.geeksforgeeks.org/movie-recommendation-based-emotion-python
+https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup
+https://www.geeksforgeeks.org/project-idea-breakout-game-python

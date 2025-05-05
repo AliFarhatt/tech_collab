@@ -1,0 +1,82 @@
+
+Coin Operated Printing Kiosk. Nursing education and training on management and use of healthcare software
+Air Quality Tester Application for Android (using Arduino)
+GSM based digital Notice board with display on PC Monitor
+Android Based Weather Forecast Application using OpenWeatherMap API
+EventScore: Web and Mobile Event Evaluation Application
+Baha Watcher: Android Based Water Level Indicator Using Arduino with SMS Notification
+ItemFinder: Lost and Found Monitoring and Management System (Web and Android pplication)
+RFID Based Bus Fare Payment System
+Document Tagging Application with Android QR Scanner
+MemoDroid: Web and Mobile Memo Notification App
+Online Complaint Management System
+Online Grading and Attendance Monitoring System with SMS Notification
+AdviseMobile: A Web and Mobile Based Guidance Consultation System
+Guidance Office Centralized Information Database System
+Web-Based Entrance Examination with Course Recommendation System
+CedulaMobile: Cedula and Brgy Certification Request and Issuance Application
+Mobile Health Care Management System
+Mobile Nutrition Application with Admin Panel (jquery mobile, PHP, MySQL, apache Cordova)
+Mobile Event Calendar Application
+Android Based Log Book Application
+City Tour: Mobile Based Map ApplicatioN
+Android Based Directory Listing Application
+Mobile Based IQ Test Application
+Cross-Platform Mobile Learning System
+Android App for Graduate School Studies
+Android Based Library Catalog Application
+RFID based Vehicle Tracking and Monitoring System
+SweldoMobile: Mobile Based Salary Notification App
+ClearDroid: Web and Android Based Clearance App
+Android Based Room Temperature Monitoring App
+Web-Based Facility Management Information System
+Web and Mobile Based Physician Expert System
+Expert System in the field of Medical Technology
+Web-Based Expense Management System with Accounting System
+Web and Mobile Based Web Tele Conference Application
+Home Security System based on LPG gas, Smoke and Fire Sensors with SMS Based alerts
+Alumni Events Management System with SMS Notification
+Medical Dictionary Application (iOS, Android)
+RFID based Bus Announcement System for Blind
+Web, Mobile and SMS Based Feedback Application
+LAN Based Billing and Accounting System with Decision Support
+Advanced Vehicle Security System with Theft control and Accident Notification via Android development
+Voice Recognition Application in Mobile Devices
+Construction Management Performance and Monitoring System
+Web and Mobile Based Meeting Notification App
+Gold Fish Guide Mobile — Android Based Guide on how to take care of your Goldfish
+Mobile Based Course Portal
+RFID Door Lock Application
+Android Based Photography Challenge App
+RFID based Airport Luggage Security Scanning System
+Vehicle over Speed-Sensing System using Arduino
+Crop Information Portal Using GIS Application
+Web-Based Purchase Request Processing System
+Delivery Tracking System (GPS and GSM Based using Arduino)
+Subject Evaluator App (iOS, Android and web based)
+Android Based Locator Map Application
+Fire & Smoke Alarm System with SMS Notification
+Quiz Management System (mobile for students and web-based for teachers)
+Jewelry Sales Accounting and Appraisal System
+Web-based Manufacturing Management and Monitoring System
+Online Grading with Mobile Based Subject Reservation Application
+Warehouse Management System
+Human Resources Information System
+To-Do / Checklist App
+RFID Enabled Passport Verification for computer engineering
+Knowledge Management System on Agriculture
+Multimedia Web and Mobile Application for Biology Subject
+Inventory Management in Android for computer engineering
+Taxi Mobile: Android Based Taxi Booking Application
+Android Based School Publication App
+Sound Memory Game for computer engineering
+Web-Based School Management Integrated System
+Number Catch Game in Android
+A puzzle game in Android
+Agriculture Marketing Information System
+Android Based Water Level Controller using Arduino
+Contact Management Application
+City Guide Android Application
+Event Planner Mobile App
+Mobile Based Public Access Cataloguing
+Android Scheduler App

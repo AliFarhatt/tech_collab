@@ -1,0 +1,481 @@
+artificialIntelligenceProjects = [
+  {
+    "ID": 48,
+    "title": "Vector-based Sentiment Analysis of Movie Reviews",
+    "description": "We investigate sentence sentiment using the Pang and Lee dataset as annotated by Socher, et al. Sentiment analysis research focuses on understanding the positive or negative tone of a sentence based on sentence syntax, structure, and content. Previous research used a tree-based model to label sentence sentiment on a scale of 5 points. Our project takes a different approach of abstracting the sentence as a vector and applying vector classification schemes. We explore two components: first, we would like to analyze the use of different sentence representations, such as bag of words, word sentiment location, negation, etc., and abstract them into a set of features. Second, we would like to classify sentence sentiment using this set of features and compare the effectiveness of different models.",
+    "category": "AI",
+    "required_skills": ["Natural Language Processing", "Machine Learning", "Data Analysis"],
+    "proposed_algorithms": ["Vector Classification", "Support Vector Machines"]
+  },
+  {
+    "ID": 49,
+    "title": "Using Tweets for single stock price prediction",
+    "description": "Social media, as the collective form of individual opinions and emotions, has very profound though maybe subtle relationships with social events. This is particularly true when it comes to public Tweets and stock trading. In fact, research has shown that when it comes to financial decisions, people are significantly driven by emotions. These emotions, together with people’s opinions, are in real-time reflected by tweets. As a result, by analyzing relevant tweets using proper machine learning algorithms, one could grasp the public’s sentiment as well as attitude towards the stock’s price of interest, which could intuitively predict the next move of it. Some previous work has been done to show that tweets can indeed reflect stock price change.",
+    "category": "AI",
+    "required_skills": ["Natural Language Processing", "Machine Learning", "Data Analysis"],
+    "proposed_algorithms": ["Sentiment Analysis", "Time Series Prediction"]
+  },
+  {
+    "ID": 50,
+    "title": "Recommendation based on user experiences",
+    "description": "Recommender systems follow two main strategies: content-based filtering and collaborative filtering. Collaborative filtering is often the preferred approach as it requires no domain knowledge and no feature gathering effort. The two primary methods for collaborative filtering are latent factor models and neighborhood methods. In user-user neighborhood methods, similarity between users is measured by transforming them into the item space. Similar logic applies to item-item similarity. In latent factor methods, both user and items are transformed into a latent feature space. An item is recommended to a user if they are similar, and their vector representation in the latent feature space is relatively high. We select latent factor model because it allows us to identify the hidden features of the users. These features are time-independent.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Recommender Systems"],
+    "proposed_algorithms": ["Latent Factor Models", "Collaborative Filtering"]
+  },
+  {
+    "ID": 51,
+    "title": "Learning To Predict Dental Caries For Preschool Children",
+    "description": "Dental caries, or tooth decay/cavity, is a dental disease caused by bacterial infection. Of people from different age groups, preschooler children require more attention since caries has become the most common chronic childhood disease. More importantly, a skewed distribution of the disease has been observed in Europe, US, and Singapore among children or preschoolers, indicating that a small portion of the population endures a big portion of caries incidences. Therefore, there is still the need to improve on the current caries control to identify high-risk individuals and prevent resurgence in children in developed countries like Singapore. Our project will study data such as questionnaire responses, oral examinations, and biological tests of certain preschoolers from Singapore and use suitable algorithms for prediction.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Medical Knowledge"],
+    "proposed_algorithms": ["Logistic Regression", "Decision Trees"]
+  },
+  {
+    "ID": 52,
+    "title": "Predicting air pollution level in a specific city",
+    "description": "The regulation of air pollutant levels is rapidly becoming one of the most important tasks for the governments of developing countries, especially China. Among the pollutant index, Fine particulate matter (PM2.5) is a significant one because it is a big concern to people's health when its level in the air is relatively high. PM2.5 refers to tiny particles in the air that reduce visibility and cause the air to appear hazy when levels are elevated. However, the relationships between the concentration of these particles and meteorological and traffic factors are poorly understood. To shed some light on these connections, some of these advanced techniques have been introduced into air quality research. These studies utilized selected techniques, such as Support Vector Machine (SVM).",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Environmental Science"],
+    "proposed_algorithms": ["Support Vector Machines", "Regression Models"]
+  },
+  {
+    "ID": 53,
+    "title": "Sentiment Analysis on Movie Reviews",
+    "description": "Sentiment analysis is a well-known task in the realm of natural language processing. Given a set of texts, the objective is to determine the polarity of that text. This study provides a comprehensive survey of various methods, benchmarks, and resources of sentiment analysis and opinion mining. The sentiments can consist of different classes. In this study, we consider two cases: 1) A movie review is positive (+) or negative (-). This is similar to other studies where they also employ a novel similarity measure. In some research, authors perform sentiment analysis after summarizing the text. 2) A movie review is very negative (- -), somewhat negative (-), neutral (o), somewhat positive (+), or very positive (+ +). For the first case, we picked a Kaggle competition called “Bag of Words Meets Bags of Popcorn”.",
+    "category": "AI",
+    "required_skills": ["Natural Language Processing", "Machine Learning", "Data Analysis"],
+    "proposed_algorithms": ["Sentiment Analysis", "Text Summarization"]
+  },
+  {
+    "ID": 54,
+    "title": "Predicting Soccer Results in the English Premier League",
+    "description": "There were many displays of genius during the 2010 World Cup, ranging from Andrew Iniesta to Thomas Muller, but none were as unusual as that of Paul the Octopus. This sea dweller correctly chose the winner of a match all eight times that he was tested. This accuracy contrasts sharply with one of our team member’s predictions for the World Cup, who was correct only about half the time. Due to love of the game, and partly from the shame of being outdone by an octopus, we have decided to attempt to predict the outcomes of soccer matches. This has real-world applications for gambling, coaching improvements, and journalism. Out of the many leagues we could have chosen, we decided upon the English Premier League.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Sports Analytics"],
+    "proposed_algorithms": ["Classification Algorithms", "Regression Models"]
+  },
+  {
+    "ID": 55,
+    "title": "Classifying Online User Behavior Using Contextual Data",
+    "description": "Despite the great computational power of machines, there are some things like interest-based segregation that only humans can instinctively distinguish. For example, a human can easily tell whether a tweet is about a book or about a kitchen utensil. However, to write a rule-based computer program to solve this task, a programmer must lay down very precise criteria for these classifications. There has been a massive increase in the amount of structured user-generated content on the Internet in the form of tweets, reviews on Amazon and eBay, etc. As opposed to stand-alone companies, which leverage their own hubs of data to run behavioral analytics, we strive to gain insights into online user behavior and interests based on free and public data. By leveraging machine learning techniques, we aim to classify user behavior more accurately and efficiently.",
+    "category": "AI",
+    "required_skills": ["Natural Language Processing", "Machine Learning", "Data Analysis"],
+    "proposed_algorithms": ["Classification Algorithms", "Contextual Analysis"]
+  },
+  {
+    "ID": 56,
+    "title": "Extracting Word Relationships from Unstructured Data",
+    "description": "Robots are advancing rapidly in their behavioural functionality allowing them to perform sophisticated tasks. However, their ability to take Natural Language instructions is still in its infancy. Parsing, Semantic Interpretation and Dialogue Management are typically performed only on a limited set of primitives, thus limiting the set of instructions that could be given to a robot. This limits a robot’s applicability in unconstrained natural environments (like households and offices). In this project, we are only addressing the problem of semantic interpretation of human instructions. Specifically, our Extracto algorithm provides a method to extract potential actions (verbs) that could be performed given two household objects (nouns). For example, given the nouns “Coffee” and “Cup”, Extracto identifies the action (verb) “pour” indicating that ‘coffee should be poured into the cup’.",
+    "category": "AI",
+    "required_skills": ["Natural Language Processing", "Machine Learning", "Robotics"],
+    "proposed_algorithms": ["Semantic Analysis", "Parsing Algorithms"]
+  },
+  {
+    "ID": 57,
+    "title": "Bird Species Identification from an Image",
+    "description": "In daily life we can hear a variety of creatures including human speech, dog barks, birdsongs, frog calls, etc. Many animals generate sounds either for communication or as a by-product of their living activities such as eating, moving, flying, mating etc. Bird species identification is a well-known problem to ornithologists, and it is considered as a scientific task since antiquity. Technology for Birds and their sounds are in many ways important for our culture. They can be heard even in big cities and most people can recognize at least a few most common species by their sounds. Biologists tried to investigate species richness, presence or absence of indicator species, and the population sizes of birds through sound analysis and image identification.",
+    "category": "AI, Image Processing",
+    "required_skills": ["Machine Learning", "Image Processing", "Data Analysis"],
+    "proposed_algorithms": ["Convolutional Neural Networks", "Image Recognition"]
+  },
+  {
+    "ID": 58,
+    "title": "Predicting ground shaking intensities using DYFI data and estimating event terms to identify induced earthquakes",
+    "description": "There has been a dramatic increase in seismicity in CEUS in recent years. There is a possibility that this increased seismicity in CEUS is caused by anthropogenic processes and is referred to as induced or triggered seismicity. The earthquakes are a nuisance for people and some larger magnitude earthquakes have also caused structural damage. Hence, it is important to quantify seismic hazard and risk from this increased seismicity. One of the major components in determining seismic hazard and risk is the expected level of ground shaking at a site. Level of ground shaking from a given earthquake is typically estimated using previously collected ground motion data in a region. However, in CEUS, due to the increased seismic activity, a new predictive model is needed.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Geology"],
+    "proposed_algorithms": ["Regression Models", "Predictive Analytics"]
+  },
+  {
+    "ID": 59,
+    "title": "Identifying Gender From Facial Features",
+    "description": "Previous research has shown that our brain has specialized nerve cells responding to specific local features of a scene, such as lines, edges, angles or movement. Our visual cortex combines these scattered pieces of information into useful patterns. Automatic face recognition aims to extract these meaningful pieces of information and put them together into a useful representation in order to perform a classification/identification task on them. While we attempt to identify gender from facial features, we are often curious about what features of the face are most important in determining gender. Are localized features such as eyes, nose and ears more important or overall features such as head shape, hair line and face contour more important? There are a plethora of successful and robust face recognition systems.",
+    "category": "AI, Image Processing",
+    "required_skills": ["Machine Learning", "Image Processing", "Data Analysis"],
+    "proposed_algorithms": ["Convolutional Neural Networks", "Face Recognition"]
+  },
+  {
+    "ID": 60,
+    "title": "Analyzing Positional Play in Chess using Machine Learning",
+    "description": "Chess has two broad approaches to game-play, tactical and positional. Tactical play is the approach of calculating maneuvers and employing tactics that take advantage of short-term opportunities, while positional play is dominated by long-term maneuvers for advantage and requires judgement more than calculations. Current generation chess engines predominantly employ tactical play and thus outplay top human players given their much superior computational abilities. Engines do so by searching game trees of depths typically between 20 and 30 moves and calculating a large number of variations. However, human play is often a combination of both, tactical and positional approaches, since humans have some intuition about which board positions are intrinsically better than others. In our project, we use machine learning to identify elements of positional play.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Game Theory"],
+    "proposed_algorithms": ["Classification Algorithms", "Game Tree Analysis"]
+  },
+  {
+    "ID": 61,
+    "title": "Attribution of Contested and Anonymous Ancient Greek Works",
+    "description": "Authorship attribution has been a persistent problem in the Classical genre, as texts that reach us from antiquity are often corrupted, edited, or forged over the thousands of years since their initial production. Scholars have worked on identifying writers’ stylistic differences in an attempt to distinguish genuine texts from fakes, and to attribute an author to previously anonymous works. Increasing computing power allows the derivation of more complex features, giving us new information about each author’s linguistic signature and writing style. Our system is able to accurately predict the author of a complete anonymous work, as well as many text fragments that currently have contested authorship. We experimented with using semantic and lexical features, and explored both discriminative and generative classification algorithms.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Classical Studies"],
+    "proposed_algorithms": ["Semantic Analysis", "Classification Algorithms"]
+  },
+   {
+    "ID": 62,
+    "title": "Blowing up the Twittersphere: Predicting the Optimal Time to Tweet",
+    "description": "We can separate our problem into a few different steps. First, we need to model information about a tweet and how successful a given tweet is. Second, given a tweet, user, and post time, we must predict how successful that tweet will be. Finally, we then need to use our predictor to determine the optimal time for a given user to post a specific tweet, i.e., what time maximizes our success prediction for a specific user and tweet. We considered two papers that address similar problems of using Machine Learning to understand interactions in social media and predict the success of online content. Lakkaruja, McAuley, and Leskovec consider the connections between title, content, and community in social media.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Social Media Analytics"],
+    "proposed_algorithms": ["Time Series Analysis", "Predictive Modeling"]
+  },
+  {
+    "ID": 63,
+    "title": "Recognition and Classification of Fast Food Images",
+    "description": "Food recognition is of great importance nowadays for multiple purposes. On one hand, for people who want to get a better understanding of the food that they are not familiar with or they haven’t even seen before, they can simply take a picture and get to know more details about it. On the other hand, the increasing demand for dietary assessment tools to record the calorie and nutrition has also been a driving force in the development of food recognition technique. Therefore, automatic food recognition is very important and has great application potential. However, food varies greatly in appearance (e.g., shape, colors) with tons of different ingredients and assembling methods. This makes food recognition a difficult task for current state-of-the-art classification methods.",
+    "category": "AI, Image Processing",
+    "required_skills": ["Machine Learning", "Image Processing", "Data Analysis"],
+    "proposed_algorithms": ["Convolutional Neural Networks", "Image Classification"]
+  },
+  {
+    "ID": 64,
+    "title": "Predicting Heart Attacks",
+    "description": "In the field of Medical Science, there are a huge amount of data. Data mining techniques are being used to discover hidden patterns from these data. Advanced data mining techniques have been developed nowadays. The efficiency of these techniques is compared with sensitivity, specificity, accuracy, and error rate. Some well-known data mining classification techniques are Decision Tree, Artificial Neural Networks, Support Vector Machine, and Naïve Bayes Classifier. In this paper, we introduce a new method based on the fitness value of the attribute to predict the heart disease problem. We use 10 attributes for our proposed method and use simple calculations. In our everyday life, there are several examples where we have to analyze historical data, for example, a bank loans officer needs to analyze the creditworthiness of applicants.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Medical Knowledge"],
+    "proposed_algorithms": ["Decision Trees", "Support Vector Machines", "Naïve Bayes"]
+  },
+  {
+    "ID": 65,
+    "title": "E-Commerce Sales Prediction Using Listing Keywords",
+    "description": "Small online retailers usually set themselves apart from brick-and-mortar stores, traditional brand names, and giant online retailers by offering goods at an exceptional value. In addition to price, they compete for shoppers’ attention via descriptive listing titles, whose effectiveness as search keywords can help drive sales. In this study, machine learning techniques will be applied to online retail data to measure the link between keywords and sales volumes.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "E-Commerce"],
+    "proposed_algorithms": ["Regression Models", "Text Analysis"]
+  },
+  {
+    "ID": 66,
+    "title": "Prediction and Classification of Cardiac Arrhythmia",
+    "description": "Irregularity in heartbeat may be harmless or life-threatening. Hence both accurate detection of the presence, as well as classification of arrhythmia, are important. Arrhythmia can be diagnosed by measuring the heart activity using an instrument called ECG or electrocardiograph and then analyzing the recorded data. Different parameter values can be extracted from the ECG waveforms and can be used along with other information about the patient like age, medical history, etc., to detect arrhythmia. However, sometimes it may be difficult for a doctor to look at these long-duration ECG recordings and find minute irregularities. Therefore, using machine learning for automating arrhythmia diagnosis can be very helpful. The project aims at using different machine learning algorithms like Naive Bayes, SVM, Random Forests, and Neural Networks.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Medical Knowledge"],
+    "proposed_algorithms": ["Naive Bayes", "Support Vector Machines", "Random Forests"]
+  },
+  {
+    "ID": 67,
+    "title": "Sentiment Analysis for Hotel Reviews",
+    "description": "Travel planning and hotel booking on the website have become one of the important commercial uses. Sharing on the web has become a major tool in expressing customer thoughts about a particular product or service. Recent years have seen rapid growth in online discussion groups and review sites (e.g., www.tripadvisor.com) where a crucial characteristic of a customer’s review is their sentiment or overall opinion — for example, if the review contains words like ‘great’, ‘best’, ‘nice’, ‘good’, ‘awesome’ is probably a positive comment. Whereas if reviews contain words like ‘bad’, ‘poor’, ‘awful’, ‘worse’ is probably a negative review. However, Trip Advisor’s star rating does not express the exact experience of the customer. Most of the ratings are meaningless, a large chunk of reviews falls in the middle.",
+    "category": "AI",
+    "required_skills": ["Natural Language Processing", "Machine Learning", "Data Analysis"],
+    "proposed_algorithms": ["Sentiment Analysis", "Text Classification"]
+  },
+  {
+    "ID": 68,
+    "title": "Mood Detection with Tweets",
+    "description": "Emotional states of individuals, also known as moods, are central to the expression of thoughts, ideas, and opinions, and in turn, impact attitudes and behavior. Social media tools like Twitter are increasingly used by individuals to broadcast their day-to-day happenings or to report on an external event of interest. Understanding the rich landscape of moods will help us better interpret millions of individuals. This paper describes a Rule-Based approach, which detects the emotion or mood of the tweet and classifies the twitter message under the appropriate emotional category. The accuracy of the system is 85%. With the proposed system it is possible to understand the deeper levels of emotions, i.e., finer-grained instead of sentiment, i.e., coarse-grained. The sentiment says whether the tweet is positive or negative.",
+    "category": "AI",
+    "required_skills": ["Natural Language Processing", "Machine Learning", "Data Analysis"],
+    "proposed_algorithms": ["Sentiment Analysis", "Emotion Detection"]
+  },
+  {
+    "ID": 69,
+    "title": "3D Scene Retrieval from Text with Semantic Parsing",
+    "description": "We look at the task of 3D scene retrieval: given a natural-language description and a set of 3D scenes, identify a scene matching the description. Geometric specifications of 3D scenes are part of the craft of many graphical computing applications, including computer animation, games, and simulators. Large databases of such scenes have become available in recent years as a result of improvements in the ease of use of tools for 3D scene design. A system that can identify a 3D scene from a natural language description is useful for making such databases of scenes readily accessible. Natural language has evolved to be well-suited to describing our (three-dimensional) world, and it provides a convenient way of specifying the space of acceptable scenes.",
+    "category": "AI",
+    "required_skills": ["Natural Language Processing", "Machine Learning", "3D Modeling"],
+    "proposed_algorithms": ["Semantic Parsing", "Scene Retrieval"]
+  },
+  {
+    "ID": 70,
+    "title": "Facial Keypoints Detection",
+    "description": "Nowadays, facial key points detection has become a very popular topic and its applications include Snapchat, How old are you, have attracted a large number of users. The objective of facial key points detection is to find the facial key points in a given face, which is very challenging due to very different facial features from person to person. The idea of deep learning has been applied to this problem, such as neural network and cascaded neural network. And the results of these structures are significantly better than state-of-the-art methods, like feature extraction and dimension reduction algorithms. In our project, we would like to locate the key points in a given image using deep architectures to not only obtain lower loss for the detection task but also improve the overall performance of facial recognition systems.",
+    "category": "AI, Image Processing",
+    "required_skills": ["Machine Learning", "Image Processing", "Data Analysis"],
+    "proposed_algorithms": ["Convolutional Neural Networks", "Feature Extraction"]
+  },
+  {
+    "ID": 71,
+    "title": "An Energy Efficient Seizure Prediction Algorithm",
+    "description": "Epileptic seizures afflict over 1% of the world’s population. If seizures could be predicted before they occur, fast-acting therapies could be delivered to prevent the attack and restore a normal quality of life to patients. Over the last two decades, several studies have explored the use of EEG signals to predict seizures using principles from machine learning. It is thought that such an algorithm could be implemented in real-time with a wireless, implanted EEG sensor. However, there are two main constraints for such a portable system. First, due to limited battery life, energy consumption must be minimal. Second, due to limited bandwidth, the data transmitted between the sensor and the central processing device (such as mobile phone, tablet, personal computer, etc.) should be minimal.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Biomedical Engineering"],
+    "proposed_algorithms": ["Support Vector Machines", "Neural Networks"]
+  },
+  {
+    "ID": 72,
+    "title": "Classifier Comparisons On Credit Approval Prediction",
+    "description": "The objective of this work is to investigate the performance of different classification algorithms using WEKA tool for credit card approval. A major problem in financial analysis is to build an ultimate model that yields fruitful results on certain given information. Neither a single data mining model fulfills all business requirements nor does a business need depend on a single model. Different models must be evaluated to attain the ultimate model. This kind of difficulty could be resolved with the aid of machine learning which could be used directly to obtain the end result with the aid of several artificial intelligent algorithms which perform the role of classifiers. Classification algorithms always find a rule or set of rules to represent data in classes.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Finance"],
+    "proposed_algorithms": ["Decision Trees", "Random Forests"]
+  },
+  {
+    "ID": 73,
+    "title": "Automatic Number Plate Recognition System",
+    "description": "The Automatic number plate recognition (ANPR) is a mass surveillance method that uses optical character recognition on images to read the license plates on vehicles. They can use existing closed-circuit television or road-rule enforcement cameras, or ones specifically designed for the task. They are used by various police forces and as a method of electronic toll collection on pay-per-use roads and monitoring traffic activity, such as red light adherence in an intersection. ANPR can be used to store the images captured by the cameras as well as the text from the license plate, with some configurable to store a photograph of the driver. Systems commonly use infrared lighting to allow the camera to take the picture at any time of the day.",
+    "category": "AI, Image Processing",
+    "required_skills": ["Machine Learning", "Image Processing", "Data Analysis"],
+    "proposed_algorithms": ["Optical Character Recognition", "Pattern Recognition"]
+  },
+  {
+    "ID": 74,
+    "title": "Practical Approximate k Nearest Neighbor Queries with Location and Query Privacy",
+    "description": "In mobile communication, spatial queries pose a serious threat to user location privacy because the location of a query may reveal sensitive information about the mobile user. In this paper, we study approximate k nearest neighbor (KNN) queries where the mobile user queries the location-based service (LBS) provider about approximate k nearest points of interest (POIs) on the basis of his current location. We propose a basic solution and a generic solution for the mobile user to preserve his location and query privacy in approximate kNN queries. The proposed solutions are mainly built on the Paillier public-key cryptosystem and can provide both location and query privacy. To preserve query privacy, our basic solution allows the mobile user to retrieve relevant information without disclosing exact query details.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Cryptography"],
+    "proposed_algorithms": ["k Nearest Neighbor", "Privacy-preserving Algorithms"]
+  },
+  {
+    "ID": 75,
+    "title": "QUANTIFYING POLITICAL LEANING FROM TWEETS, RETWEETS, AND RETWEETERS",
+    "description": "In recent years, big online social media data have found many applications in the intersection of political and computer science. Examples include answering questions in political and social science (e.g., proving/disproving the existence of media bias and the “echo chamber” effect), using online social media to predict election outcomes, and personalizing social media feeds so as to provide a fair and balanced view of people’s opinions on controversial issues. A prerequisite for answering the above research questions is the ability to accurately estimate the political leaning of the population involved. If it is not met, either the conclusion will be invalid, the prediction will perform poorly due to a skew towards highly vocal or polarized groups.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Political Science"],
+    "proposed_algorithms": ["Sentiment Analysis", "Predictive Modeling"]
+  },
+  {
+    "ID": 76,
+    "title": "Efficient Algorithms for Mining Top-K High Utility Itemsets",
+    "description": "In recent years, shopping online is becoming more and more popular. When it needs to decide whether to purchase a product or not online, the opinions of others become important. It presents a great opportunity to share our viewpoints for various products purchase. However, people face the information overloading problem. How to mine valuable information from reviews to understand a user’s preferences and make an accurate recommendation is crucial. Traditional recommender systems consider some factors, such as user’s purchase records, product category, and geographic location. In this work, it proposes a sentiment-based rating prediction method to improve prediction accuracy in recommender systems. Firstly, it proposes a social user sentimental measurement approach and calculates each user’s sentiment on items. Secondly, it not only provides more accurate recommendations but also improves the user experience.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "E-Commerce"],
+    "proposed_algorithms": ["Sentiment Analysis", "Rating Prediction"]
+  },
+  {
+    "ID": 77,
+    "title": "Crowdsourcing for Top-K Query Processing over Uncertain Data",
+    "description": "Querying uncertain data has become a prominent application due to the proliferation of user-generated content from social media and of data streams from sensors. When data ambiguity cannot be reduced algorithmically, crowdsourcing proves a viable approach, which consists in posting tasks to humans and harnessing their judgment for improving the confidence about data values or relationships. This paper tackles the problem of processing top-K queries over uncertain data with the help of crowdsourcing to quickly converge to the real ordering of relevant results. Several offline and online approaches for addressing questions to a crowd are defined and contrasted on both synthetic and real datasets, with the aim of minimizing the crowd interactions necessary to find the real ordering of the result set.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Crowdsourcing"],
+    "proposed_algorithms": ["Top-K Query Processing", "Crowdsourced Algorithms"]
+  },
+  {
+    "ID": 78,
+    "title": "Cyberbullying Detection based on Semantic-Enhanced Marginalized Denoising Auto-Encoder",
+    "description": "As a side effect of increasingly popular social media, cyberbullying has emerged as a serious problem afflicting children, adolescents, and young adults. Machine learning techniques make automatic detection of bullying messages in social media possible, and this could help to construct a healthy and safe social media environment. In this meaningful research area, one critical issue is robust and discriminative numerical representation learning of text messages. In this paper, we propose a new representation learning method to tackle this problem. Our method named semantic-enhanced marginalized denoising auto-encoder (smSDA) is developed via a semantic extension of the popular deep learning model stacked denoising autoencoder (SDA). The semantic extension consists of semantic dropout noise and sparsity constraints, where the semantic dropout noise is designed to randomly drop words or phrases.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Natural Language Processing", "Data Analysis"],
+    "proposed_algorithms": ["Denoising Auto-Encoder", "Semantic Analysis"]
+  },
+  {
+    "ID": 79,
+    "title": "Detecting Malicious Facebook Applications",
+    "description": "With 20 million installs a day, third-party apps are a major reason for the popularity and addictiveness of Facebook. Unfortunately, hackers have realized the potential of using apps for spreading malware and spam. The problem is already significant, as we find that at least 13% of apps in our dataset are malicious. So far, the research community has focused on detecting malicious posts and campaigns. In this paper, we ask the question: Given a Facebook application, can we determine if it is malicious? Our key contribution is in developing FRAppE-Facebook's Rigorous Application Evaluator-arguably the first tool focused on detecting malicious apps on Facebook. To develop FRAppE, we use information gathered by observing the posting behavior of 111K Facebook apps seen across 2.2 million users on Facebook.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Cybersecurity"],
+    "proposed_algorithms": ["Classification Algorithms", "Anomaly Detection"]
+  },
+  {
+    "ID": 80,
+    "title": "Sentiment Analysis of Top Colleges in India Using Twitter Data",
+    "description": "Social Media has captured the attention of the entire world as it is thundering fast in sending thoughts across the globe, user-friendly and free of cost requiring only a working internet connection. People are extensively using this platform to share their thoughts loud and clear. Twitter is one such well-known micro-blogging site getting around 500 million tweets per day. Each user has a daily limit of 2,400 tweets and 140 characters per tweet. Twitter users post (or ‘tweet’) every day about various subjects like products, services, day to day activities, places, personalities etc. Hence, Twitter data is of great germane as it can be used in various scenarios where companies or brands can utilize a direct connection to almost each customer’s mind and thoughts.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Natural Language Processing"],
+    "proposed_algorithms": ["Sentiment Analysis", "Text Classification"]
+  },
+  {
+    "ID": 81,
+    "title": "FiDoop: Parallel Mining of Frequent Itemsets Using MapReduce",
+    "description": "Data mining is a process of discovering the pattern from the huge amount of data. There are many data mining techniques like clustering, classification and association rule. The most popular one is the association rule that is divided into two parts: generating the frequent itemset and generating the association rule from all itemsets. Frequent itemset mining (FIM) is the core problem in association rule mining. Sequential FIM algorithm suffers from performance deterioration when it operated on a huge amount of data on a single machine. To address this problem, parallel FIM algorithms were proposed. There are two types of algorithms that can be used for mining the frequent itemsets: the candidate-itemset generation approach and the approach without candidate itemset generation.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Hadoop"],
+    "proposed_algorithms": ["MapReduce", "Frequent Itemset Mining"]
+  },
+  {
+    "ID": 82,
+    "title": "Workflow-Based Big Data Analytics in The Cloud Environment",
+    "description": "Since digital data repositories are more and more massive and distributed, we need smart data analysis techniques and scalable architectures to extract useful information from them in reduced time. Cloud computing infrastructures offer an effective support for addressing both the computational and data storage needs of big data mining applications. In fact, complex data mining tasks involve data- and compute-intensive algorithms that require large and efficient storage facilities together with high-performance processors to get results in acceptable times. In this chapter, we present a Data Mining Cloud Framework designed for developing and executing distributed data analytics applications as workflows of services. In this environment, we use datasets, analysis tools, data mining algorithms and knowledge models that are implemented as single services that can be combined through a visual programming interface.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Cloud Computing"],
+    "proposed_algorithms": ["Distributed Computing", "Workflow Automation"]
+  },
+  {
+    "ID": 83,
+    "title": "Modeling Urban Behavior by Mining Geotagged Social Data",
+    "description": "Data generated on location-based social networks provide rich information on the whereabouts of urban dwellers. Specifically, such data reveal who spends time where, when, and on what type of activity (e.g., shopping at a mall, or dining at a restaurant). That information can, in turn, be used to describe city regions in terms of activity that takes place therein. For example, the data might reveal that citizens visit one region mainly for shopping in the morning, while another for dining in the evening. Furthermore, once such a description is available, one can ask more elaborate questions. For example, one might ask what features distinguish one region from another - some regions might be different in terms of the type of venues they have, the demographics of their visitors, or the times of day they are most active.",
+    "category": "AI",
+    "required_skills": ["Machine Learning", "Data Analysis", "Geospatial Analysis"],
+    "proposed_algorithms": ["Clustering Algorithms", "Pattern Recognition"]
+  },
+  {
+    "ID": 84,
+    "title": "Human Speed Detection Project",
+    "description": "This speed detection system is used to detect the speed of a moving person in real time. This system uses video manipulation along with a frame differentiation algorithm to capture and detect the speed of a person. The system works as follows: The system captures videos with the help of a webcam or a recording device. Now this video is manipulated upon. A video is made up of frames. These frames are now separated. A frame detection algorithm now works on these frames. The algorithm stores pixel values for each frame. It then tracks the motion of the person's pixels as it moves from one side of the frame to another through a set of frames. Since the frames move at a constant predefined rate, the number of frames the person takes to cross the frames can be used to calculate the speed of the person.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Computer Vision", "Video Processing"],
+    "proposed_algorithms": ["Frame Differentiation", "Motion Detection"]
+  },
+  {
+    "ID": 85,
+    "title": "Media Player Project",
+    "description": "The music player allows a user to play various media file formats. It can be used to play audio as well as video files. The music player is a software project supporting all known media files and has the ability to play them with ease. The project features are as follows: User may attach a folder to play various media files within it. User may see track lists and play desired ones accordingly. Supports various music formats including .mp3, WMA, WAV etc. Interactive GUI with Pause/Play/Stop features. Consists of a volume controller. The system also consists of a sound Equalizer. It displays the media playing time with a track bar so that user may drag the media play as needed.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Software Development", "Media Processing"],
+    "proposed_algorithms": ["Media Decoding", "User Interface Design"]
+  },
+  {
+    "ID": 86,
+    "title": "Cursor Movement By Hand Gesture Project",
+    "description": "We all wonder it would have been so comfortable if we could control the cursor through the use of hand gestures. Well, our proposed project puts forward a hand gesture based system that allows the user to control the pc mouse movements through the use of hand movements. Our system uses a pc webcam to detect hand gesture movements. The system continuously scans the camera input for five-finger hand-like patterns. Once a hand is detected, the system then locks it as an object. A flag is set on the object in order to mark it as an object. After the object has been flagged and detected, our system then constantly records its movements in terms of X and Y direction movement based coordinates. These coordinates are then mapped to the cursor movements on the screen.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Computer Vision", "Human-Computer Interaction"],
+    "proposed_algorithms": ["Gesture Recognition", "Object Tracking"]
+  },
+  {
+    "ID": 87,
+    "title": "Look Based Media Player",
+    "description": "Usually when you are watching a video and someone calls you, you have to look somewhere else or go away from pc for some time so you miss some part of the video. Later you need to drag back the video from where you saw it. Well here is a solution to this problem. A look based media player that pauses itself when the user is not looking at it. The player starts running again as soon as the user looks at it again. This is done using the camera or webcam on top of the computer. As long as the camera detects the user's face looking at it, the media is played. The player pauses as soon as the user's face is not completely seen. The look-based media player ensures that you don't miss any part of the video due to distractions.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Computer Vision", "Media Processing"],
+    "proposed_algorithms": ["Face Detection", "Media Control"]
+  },
+  {
+    "ID": 88,
+    "title": "Automatic Answer Checker",
+    "description": "An automatic answer checker application that checks and marks written answers similar to a human being. This software application is built to check subjective answers in an online examination and allocate marks to the user after verifying the answer. The system requires you to store the original answer for the system. This facility is provided to the admin. The admin may insert questions and respective subjective answers in the system. These answers are stored as notepad files. When a user takes the test he is provided with questions and an area to type his answers. Once the user enters his/her answers the system then compares this answer to the original answer written in the database and allocates marks accordingly. Both the answers need not be exactly the same word to word.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Natural Language Processing", "Software Development"],
+    "proposed_algorithms": ["Text Comparison", "Pattern Matching"]
+  },
+  {
+    "ID": 89,
+    "title": "Document Checker and Corrector Project",
+    "description": "Checks your .DOC or .DOCX files. You can attach a folder of word documents and then the below conditions can be checked in those document files and error reports can be generated: All the pages must be separate files, i.e., 800 pages will be 800 files. All formatting should be in inches. File: Page setup: Top-Bottom-Left-Right 0.25 and Gutter: 0.5. Paper size A4, Layout: header/footer 0.7. Heading first: Heading Style 1 Arial 16 Bold. Heading second: Heading Style 2 Arial 14 Bold & Italic. Heading third: Heading Style 3 Arial 13 Bold & Italic. Use only in Header & Footer. Heading position.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Natural Language Processing", "Software Development"],
+    "proposed_algorithms": ["Text Comparison", "Pattern Matching"]
+  },
+  {
+    "ID": 90,
+    "title": "Student Attendance System by Barcode Scan",
+    "description": "In past days students marked their attendance on paper but sometimes there are chances of losing the paper. In that case, we cannot calculate the attendance of students. So to overcome these issues we implement the system that will hide all student information (identity card) inside the Bar-Code. The project is a system that takes down students' attendance using a barcode. Every student is provided with a card containing a unique barcode. Each barcode represents a unique id of students. Students just have to scan their cards using a barcode scanner and the system notes down their attendance as per dates. The system then stores all the students' attendance records and generates a defaulter list. It also generates an overall report in an excel sheet for admin.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Computer Vision", "Software Development"],
+    "proposed_algorithms": ["Barcode Recognition", "Data Management"]
+  },
+  {
+    "ID": 91,
+    "title": "Face Recognition Attendance System",
+    "description": "The system is developed for deploying an easy and a secure way of taking down attendance. The software first captures an image of all the authorized persons and stores the information into a database. The system then stores the image by mapping it into a face coordinate structure. Next time whenever the registered person enters the premises the system recognizes the person and marks his attendance along with the time. If the person arrives late than his reporting time, the system speaks a warning 'you are xx minutes late! Do not repeat this.' Note: This system has around 40%-60% accuracy in scanning and recognizing faces.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Computer Vision", "Software Development"],
+    "proposed_algorithms": ["Face Recognition", "Attendance Management"]
+  },
+  {
+    "ID": 92,
+    "title": "AI Multi Agent Shopping System",
+    "description": "An AI multi-agent shopping system where the system is fed with various product details. The system allows users to register and enter their details about a particular product. The system records all the details provided by the user and checks for various items matching their search. The system comes up with a list of items best suited for the user's needs. The system also suggests other related items that the user may like. The system suggests these items which are likely to be bought by the user based on their previous requirements. The system handles multiple users at a time and provides accurate results.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Data Analysis", "E-Commerce"],
+    "proposed_algorithms": ["Recommendation Systems", "Collaborative Filtering"]
+  },
+  {
+    "ID": 93,
+    "title": "Android AI Diet Consultant",
+    "description": "Artificial dietician project is an application with artificial intelligence about human diets. It acts as a diet consultant similar to a real dietician. This system acts in a similar way as that of a dietician. A person in order to know their diet plan needs to give some information to the dietician such as body type, weight, height, and working hour details. Similar way this system also provides the diet plan according to the information entered by the user. The system asks all data from the user and processes it to provide the diet plan to the user. Thus the user does not need to visit any dietician which also saves time and the user can get the required diet plan in just a few minutes.",
+    "category": "Android Mobile Development, AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Android Development", "Health Informatics"],
+    "proposed_algorithms": ["Decision Trees", "Personalized Recommendation"]
+  },
+  {
+    "ID": 94,
+    "title": "Android Smart City Traveler",
+    "description": "The purpose of developing this android application is to create a schedule for the traveler traveling to a city and wanting to explore the city by specifying the time in hours. System then smartly analyzes the questionnaire and creates a schedule for the traveler based on the provided time. The development is done in two technical languages as Java for Android Application for User/Traveler and Asp.net for the web portal which is used by Admin. First of all, the traveler needs to register by filling up the details using the android application. After successful registration, the user can log in now using login credentials which then proceeds with a questionnaire where the application asks the user about their likings and habits. Based on the questionnaire, the application smartly analyzes the place based on user-specified time.",
+    "category": "Android Mobile Development, AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Android Development", "Tourism"],
+    "proposed_algorithms": ["Recommendation Systems", "User Profiling"]
+  },
+  {
+    "ID": 95,
+    "title": "Advanced Intelligent Tourist Guide",
+    "description": "The project is developed using Visual Studio with Asp.net as the programming language. There are two entities who will have access to the system. One is the admin and another one will be the registered user. The admin will add places with their details such as place name, image, address, area, latitude-longitude, tags, and description. Admin can view all the added places and also can edit if required. If a user is new, they will have to fill the registration form (username, password, email, full name, contact number, and type of places i.e. tags.). After registration, the user can log in with the valid id and password. After login, the user will get place recommendations based on the preferences which were taken in the form of tags during registration.",
+    "category": "Android Mobile Development, AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Web Development", "Tourism"],
+    "proposed_algorithms": ["Recommendation Systems", "User Profiling"]
+  },
+  {
+    "ID": 96,
+    "title": "Banking Bot Project",
+    "description": "A banking bot project is based on artificial algorithms that analyze user’s queries and understand user’s messages. The system design is for bank use, where users are allowed to ask any bank-related questions like loans, accounts, policies, etc. This is an android application. The system recognizes the user’s query and understands what the user wants to convey and simultaneously answers them appropriately. The format of user’s questions can be different as there is no specific format for users to ask questions. The built-in artificial intelligence system recognizes the requirements of the users and provides suitable answers for the same. It makes use of a graphical representation of a person speaking while giving answers as a real person would do.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "Natural Language Processing", "Android Development"],
+    "proposed_algorithms": ["Chatbots", "Natural Language Understanding"]
+  },
+  {
+    "ID": 97,
+    "title": "Advanced Mobile Store",
+    "description": "This advanced mobile store adjusts according to user’s choice and ensures the most profitability using artificial intelligence. It provides the user with an easy and beautiful GUI. It shows a list of products to the user, the user sees a product and goes through its features and price, the system gets to know about the user’s choices. Once the user selects a phone, the system remembers the choice for that particular user. Next time the user logs in, the system shows appropriate recommendations for that user along with other products. Once the user decides to buy a mobile phone and goes towards the payment option, the system also shows them some mobile covers and mobile accessories for that particular mobile that they have selected, so that they can add it to the cart as well.",
+    "category": "AI, Web | Desktop Application",
+    "required_skills": ["Machine Learning", "E-Commerce", "Web Development"],
+    "proposed_algorithms": ["Recommendation Systems", "User Profiling"]
+  }
+]
+
+# adding indices
+for i,proj in enumerate(artificialIntelligenceProjects):
+    proj['ID'] = i+1
+
+links = [
+   "https://projectideas.co.in/vector-based-sentiment-analysis-of-movie-reviews/",
+"https://projectideas.co.in/using-tweets-for-single-stock-price-prediction/",
+"https://projectideas.co.in/recommendation-based-on-user-experiences/",
+"https://projectideas.co.in/learning-to-predict-dental-caries-for-preschool-children/",
+"https://projectideas.co.in/predicting-air-pollution-level-in-a-specific-city/",
+"https://projectideas.co.in/sentiment-analysis-on-movie-reviews/",
+"https://projectideas.co.in/predicting-soccer-results-in-the-english-premier-league/",
+"https://projectideas.co.in/classifying-online-user-behavior-using-contextual-data/",
+"https://projectideas.co.in/extracting-word-relationships-from-unstructured-data/",
+"https://projectideas.co.in/bird-species-identification-from-an-image/",
+"https://projectideas.co.in/predicting-ground-shaking-intensities-using-dyfi-data-and-estimating-event-terms-to-identify-induced-earthquakes/",
+"https://projectideas.co.in/identifying-gender-from-facial-features/",
+"https://projectideas.co.in/analyzing-positional-play-in-chess-using-machine-learning/",
+"https://projectideas.co.in/predicting-hospital-readmission-sin-the-medicare-population/", #missing
+"https://projectideas.co.in/attribution-of-contested-and-anonymous-ancient-greek-works/",
+"https://projectideas.co.in/4153-2/",
+"https://projectideas.co.in/sentiment-as-a-predictor-of-wikipedia-editor-activity/", #missing
+"https://projectideas.co.in/application-of-neural-network-in-handwriting-recognition/", #missing
+"https://projectideas.co.in/re-clustering-of-constellations-through-machine-learning/",
+"https://projectideas.co.in/collaborative-filtering-recommender-systems/", 
+"https://projectideas.co.in/blowing-up-the-twittersphere-predicting-the-optimal-time-to-tweet/",
+"https://projectideas.co.in/recognition-and-classification-of-fast-food-images/",
+"https://projectideas.co.in/predicting-heart-attacks/",
+"https://projectideas.co.in/e-commerce-sales-prediction-using-listing-keywords/",
+"https://projectideas.co.in/prediction-and-classification-of-cardiac-arrhythmia/",
+"https://projectideas.co.in/4135-2/",
+"https://projectideas.co.in/mood-detection-with-tweets/",
+"https://projectideas.co.in/3d-scene-retrieval-from-text-with-semantic-parsing/",
+"https://projectideas.co.in/parking-occupancy-prediction-and-pattern-analysis/", #missing
+"https://projectideas.co.in/stock-trend-prediction-with-technical-indicators-using-svm/",
+"https://projectideas.co.in/predicting-usefulness-of-yelp-reviews/", #missing
+"https://projectideas.co.in/facial-keypoints-detection/",
+"https://projectideas.co.in/multiclass-classifier-building-with-amazon-data-to-classify-customer-reviews-into-product-categories/",
+"https://projectideas.co.in/an-energy-efficient-seizure-prediction-algorithm/",
+"https://projectideas.co.in/classifier-comparisons-on-credit-approval-prediction/",
+"https://projectideas.co.in/automatic-number-plate-recognition-system/",
+"https://projectideas.co.in/practical-approximate-k-nearest-neighbor-queries-with-location-and-query-privacy/",
+"https://projectideas.co.in/quantifying-political-leaning-from-tweets-retweets-and-retweeters/",
+"https://projectideas.co.in/efficient-algorithms-for-mining-top-k-high-utility-itemsets-2/",
+"https://projectideas.co.in/efficient-algorithms-for-mining-top-k-high-utility-itemsets/",
+"https://projectideas.co.in/crowd-sourcing-for-top-k-query-processing-over-uncertain-data/",
+"https://projectideas.co.in/cyberbullying-detection-based-on-semantic-enhanced-marginalized-denoising-auto-encoder/",
+"https://projectideas.co.in/mining-facets-for-queries-from-their-search-results/",
+"https://projectideas.co.in/detecting-malicious-facebook-applications/",
+"https://projectideas.co.in/sentiment-analysis-of-top-colleges-in-india-using-twitter-data/",
+"https://projectideas.co.in/fidoop-parallel-mining-of-frequent-itemsets-using-mapreduce/",
+"https://projectideas.co.in/workflow-based-big-data-analytics-in-the-cloud-environment/",
+"https://projectideas.co.in/socialqa-an-online-social-network-based-question-and-answer-system/", #missing
+"https://projectideas.co.in/human-speed-detection-project-dotnet/",
+"https://projectideas.co.in/media-player-project-dotnet/",
+"https://projectideas.co.in/cursor-movement-by-hand-gesture-project-dotnet/",
+"https://projectideas.co.in/look-based-media-player-dotnet/",
+"https://projectideas.co.in/automatic-answer-checker-dotnet/",
+"https://projectideas.co.in/document-checker-and-corrector-project-dotnet/",
+"https://projectideas.co.in/student-attendance-system-by-barcode-scan-dotnet/",
+"https://projectideas.co.in/face-recognition-attendance-system-dotnet/",
+"https://projectideas.co.in/ai-multi-agent-shopping-system-dotnet/",
+"https://projectideas.co.in/android-ai-diet-consultant-android/",
+"https://projectideas.co.in/android-smart-city-traveler-android/",
+"https://projectideas.co.in/advanced-intelligent-tourist-guide-project-ideas/",
+"https://projectideas.co.in/banking-bot-php-project-ideas/",
+"https://projectideas.co.in/advance-mobile-store-php-project-ideas/"
+]
+
+
+for url, proj in zip(links, artificialIntelligenceProjects):
+    proj['URL']= url
+
+print(len(links)) #62
+print(len(artificialIntelligenceProjects)) #50
+
+# links are not mapped correctly
+# print(artificialIntelligenceProjects[26:36])

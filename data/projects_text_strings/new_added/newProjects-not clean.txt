@@ -1,0 +1,50 @@
+16 Mini Project Ideas For Computer Engineering Students
+Here are 16 mini-project ideas for computer engineering students:
+
+1. IoT-based home automation system
+Build a system to control home appliances like lights, fans, AC, etc, remotely using a mobile app. It will teach about IoT concepts, embedded programming and mobile app development.
+
+2. Object detection robot
+Construct an autonomous robot that can detect and avoid obstacles using sensors like ultrasonic sensors and cameras. Students will learn about image processing, robotics and embedded systems.
+
+3. Weather station
+Develop a system to measure temperature, humidity, rainfall, and other parameters and display real-time weather information. It covers topics like sensors, microcontrollers and IoT.
+
+4. Mobile controlled robot
+Design a Bluetooth or WiFi-enabled bot that can be controlled via a mobile app. It will teach communication protocols, app development and robotic systems.
+
+5. Smart irrigation system
+Design a Bluetooth or WiFi-enabled bot that can be controlled via a mobile app. It will teach communication protocols, app development and robotic systems.
+
+6. Home security alarm system
+Develop a security alarm that sends alerts using sensors to detect motion, smoke, intrusion, etc. Covers embedded systems and communication protocols.
+
+7. Patient health monitoring system
+Build a wearable device to monitor patient vitals like heart rate, SpO2, etc., and send updates to care providers. Teaches about biomedical instrumentation, sensors and IoT.
+
+8. Mini weather station using Arduino
+Develop a small weather station to measure temperature, humidity, wind speed, etc., using Arduino and various sensors. Learn about Arduino programming and electronics.
+
+9. IoT-based smart parking system
+Build a system using ultrasonic sensors and cameras to check for empty parking spots and guide vehicles. Learn image processing, IoT and embedded systems.
+
+10. Home automation using Raspberry Pi
+Control and automate home appliances using Raspberry Pi through a web or mobile app. Learn about Raspberry Pi, IoT and web technologies.
+
+11. Gaming console emulator
+Create an emulator for retro gaming consoles like Nintendo or PlayStation using Raspberry Pi. Learn about game programming and Raspberry Pi.
+
+12. Voice-controlled home automation
+Build a voice controlled system using Google Assistant/Alexa to control appliances and smart devices at home. Learn about IoT, voice computing and smart homes.
+
+13. Fire alarm and fire fighting robot
+Develop a fire detecting and alerting system along with a robot capable of extinguishing small fires. Learn about robotics, sensors and embedded systems.
+
+14. IoT-based health monitoring system
+Build a wearable device to monitor patient health and send updates to doctors through WiFi/4G. Learn about IoT, biosensors, and communication protocols.
+
+15. Home security system using Arduino
+Design a low-cost security system using sensors and Arduino to detect intrusion, gas leaks, and fires. Learn about Arduino and embedded programming.
+
+16. Touchscreen home automation dashboard
+Develop a touch display UI using Raspberry Pi to control lights, AC, appliances etc. Learn about touchscreen programming and IoT.

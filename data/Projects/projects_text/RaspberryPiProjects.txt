@@ -1,0 +1,29 @@
+An autonomous surveillance robot using image processing and Raspberry Pi to track and follow objects based on visuals. , Image Processing, AI, Web | Desktop Application
+A color-based object sorting system using image processing and IoT for sorting items into bins based on detected color. , IoT, Image Processing, Cloud Computing
+A smart mirror system that displays news, temperature, and weather information using IoT and Raspberry Pi. , IoT, Cloud Computing, Web | Desktop Application
+A system that creates 3D holographic projections and allows user interaction through gesture control using Raspberry Pi. , Image Processing, AI, Web | Desktop Application
+A smart speaking system that helps mute people communicate through hand gestures using Raspberry Pi and sensors. , AI, Sensor, Web | Desktop Application
+A reading system for the blind that uses OCR and Raspberry Pi to read out text captured by a camera. , AI, Sensor, Web | Desktop Application
+A music beats player controlled by hand motions using ultrasonic sensors and Raspberry Pi. , Sensor, AI, Web | Desktop Application
+A home automation system using Raspberry Pi and Bluetooth to control appliances via an Android phone. , IoT, Android Mobile Development, Web | Desktop Application
+An automated selfie booth that uses face recognition to take and save selfies using Raspberry Pi. , Image Processing, AI, Web | Desktop Application
+A wildlife recording camera that starts recording when motion is detected using Raspberry Pi and motion sensors. , Sensor, AI, Web | Desktop Application
+A time-lapse camera that captures images only when significant motion is detected to optimize storage using Raspberry Pi. , Sensor, AI, Web | Desktop Application
+A vehicle number plate recognition system using image processing and OCR with Raspberry Pi. , Image Processing, AI, Web | Desktop Application
+A portable virtual piano that uses a plastic sheet and Raspberry Pi to simulate piano tones through image processing. , Image Processing, AI, Web | Desktop Application
+A voice-controlled home automation system using Raspberry Pi to switch appliances based on spoken commands. , IoT, AI, Web | Desktop Application
+A robot that detects gas leaks in pipes using sensors and Raspberry Pi, and reports the location via GPS. , IoT, Sensor, GPS-GSM
+An IoT-based home automation system that allows control of home appliances via the internet using Raspberry Pi. , IoT, Cloud Computing, Web | Desktop Application
+An internet-based industry automation system that allows control of industrial appliances using Raspberry Pi and IoT Gecko. , IoT, Cloud Computing, Web | Desktop Application
+An IoT-based theft detection system using Raspberry Pi and image processing to detect and highlight theft in live video. , IoT, Image Processing, Security and Encryption
+A speaking bus stop indicator system using Raspberry Pi and RF receivers to announce bus stops. , Sensor, AI, Web | Desktop Application
+An automated door opener and lighting control system using Raspberry Pi and PIR sensors to detect human presence. , Sensor, AI, Web | Desktop Application
+A fire detection system using image processing with Raspberry Pi to detect fire based on heat signatures and illumination patterns. , Image Processing, AI, Security and Encryption
+A medication reminder system using Raspberry Pi that converts text to speech to remind patients of their medication schedule. , AI, Web | Desktop Application
+A camera-based surveillance system using Raspberry Pi to detect and alert on motion, capturing images of detected events. , Sensor, AI, Security and Encryption
+A system that uses alcohol sensors and Raspberry Pi to detect drunk driving and lock car ignition if alcohol is detected. , Sensor, AI, Security and Encryption
+A Raspberry Pi-based wheelchair with RF communication and safety features to assist disabled users with easy movement and emergency help. , GPS-GSM, Sensor, Web | Desktop Application
+An innovative robot that detects gas leaks in pipes using sensors and Raspberry Pi, and reports the location via GPS. , IoT, Sensor, GPS-GSM
+An internet-based industry automation system that allows control of industrial appliances using Raspberry Pi and IoT Gecko. , IoT, Cloud Computing, Web | Desktop Application
+An IoT-based theft detection system using Raspberry Pi and image processing to detect and highlight theft in live video. , IoT, Image Processing, Security and Encryption
+A Raspberry Pi-based wheelchair with RF communication and safety features to assist disabled users with easy movement and emergency help. , GPS-GSM, Sensor, Web | Desktop Application
